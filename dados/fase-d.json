@@ -1,0 +1,301 @@
+{
+  "id": "fase-d",
+  "titulo": "Fase D: Arquitetura de Tecnologia",
+  "ordem": 4,
+  "sigla": "D",
+  "arquivo": "fase-d.json",
+  "descricao": "Defina a base tecnológica que sustenta a arquitetura.",
+  "introducao": "Observe os recursos e serviços tecnológicos que permitem às aplicações e aos dados funcionar. Onde a arquitetura de tecnologia precisa dar mais clareza às decisões?",
+  "assuntos": [
+    {
+      "id": "servicos-tecnologicos",
+      "titulo": "Serviços e componentes tecnológicos",
+      "icone": "▣",
+      "descricao": "Conhecemos a tecnologia que sustenta nossas soluções?",
+      "introducao": "Vamos relacionar serviços tecnológicos, componentes e as aplicações que dependem deles.",
+      "introducaoReflexoes": "Vamos relacionar serviços tecnológicos, componentes e as aplicações que dependem deles.",
+      "reflexoes": [
+        {
+          "id": "servicos-tecnologicos-01",
+          "titulo": "Panorama tecnológico",
+          "pergunta": "Conseguimos identificar os principais serviços e componentes tecnológicos utilizados?",
+          "apoio": "Uma visão arquitetural da tecnologia deve mostrar os elementos necessários para as decisões, não cada item de inventário.",
+          "praticas": [
+            {
+              "id": "servicos-tecnologicos-01-p01",
+              "texto": "Relacionar um serviço tecnológico aos componentes que o realizam."
+            },
+            {
+              "id": "servicos-tecnologicos-01-p02",
+              "texto": "Identificar os principais ambientes tecnológicos de uma solução prioritária."
+            },
+            {
+              "id": "servicos-tecnologicos-01-p03",
+              "texto": "Registrar os componentes tecnológicos críticos para um serviço de aplicação."
+            },
+            {
+              "id": "servicos-tecnologicos-01-p04",
+              "texto": "Validar o panorama com as equipes responsáveis pela infraestrutura."
+            }
+          ]
+        },
+        {
+          "id": "servicos-tecnologicos-02",
+          "titulo": "Dependências com aplicações",
+          "pergunta": "Sabemos quais aplicações dependem de cada serviço ou componente tecnológico relevante?",
+          "apoio": "Essa relação ajuda a avaliar impactos de indisponibilidade, mudança e obsolescência.",
+          "praticas": [
+            {
+              "id": "servicos-tecnologicos-02-p01",
+              "texto": "Relacionar uma aplicação a seu serviço tecnológico de suporte."
+            },
+            {
+              "id": "servicos-tecnologicos-02-p02",
+              "texto": "Identificar uma dependência tecnológica compartilhada por várias aplicações."
+            },
+            {
+              "id": "servicos-tecnologicos-02-p03",
+              "texto": "Registrar um impacto possível da falha de um componente crítico."
+            },
+            {
+              "id": "servicos-tecnologicos-02-p04",
+              "texto": "Revisar dependências tecnológicas com responsáveis por aplicações e infraestrutura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "requisitos-tecnologicos",
+      "titulo": "Requisitos de tecnologia",
+      "icone": "◎",
+      "descricao": "As escolhas tecnológicas respondem às necessidades da organização?",
+      "introducao": "Vamos observar as necessidades que devem orientar decisões sobre a plataforma tecnológica.",
+      "introducaoReflexoes": "Vamos observar as necessidades que devem orientar decisões sobre a plataforma tecnológica.",
+      "reflexoes": [
+        {
+          "id": "requisitos-tecnologicos-01",
+          "titulo": "Requisitos não funcionais",
+          "pergunta": "Consideramos as necessidades de disponibilidade, desempenho, capacidade e continuidade ao definir a tecnologia?",
+          "apoio": "Os atributos exigidos dependem da importância e da forma de uso dos serviços que a tecnologia sustenta.",
+          "praticas": [
+            {
+              "id": "requisitos-tecnologicos-01-p01",
+              "texto": "Relacionar um requisito de disponibilidade a um serviço crítico."
+            },
+            {
+              "id": "requisitos-tecnologicos-01-p02",
+              "texto": "Registrar uma necessidade de desempenho ou capacidade ainda não explicitada."
+            },
+            {
+              "id": "requisitos-tecnologicos-01-p03",
+              "texto": "Confirmar uma restrição de continuidade com a área responsável."
+            },
+            {
+              "id": "requisitos-tecnologicos-01-p04",
+              "texto": "Verificar se a proposta tecnológica contempla os requisitos prioritários."
+            }
+          ]
+        },
+        {
+          "id": "requisitos-tecnologicos-02",
+          "titulo": "Segurança e restrições",
+          "pergunta": "As restrições de segurança, conformidade e operação estão presentes nas decisões tecnológicas?",
+          "apoio": "A arquitetura tecnológica precisa incorporar restrições aplicáveis, em colaboração com as áreas especializadas.",
+          "praticas": [
+            {
+              "id": "requisitos-tecnologicos-02-p01",
+              "texto": "Identificar um requisito de segurança aplicável à plataforma."
+            },
+            {
+              "id": "requisitos-tecnologicos-02-p02",
+              "texto": "Registrar uma restrição tecnológica exigida por norma ou política interna."
+            },
+            {
+              "id": "requisitos-tecnologicos-02-p03",
+              "texto": "Envolver a equipe de segurança na revisão de uma decisão relevante."
+            },
+            {
+              "id": "requisitos-tecnologicos-02-p04",
+              "texto": "Manter rastreável a restrição que motivou uma escolha tecnológica."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "padroes",
+      "titulo": "Padrões e escolhas tecnológicas",
+      "icone": "◇",
+      "descricao": "Temos critérios para escolher e evoluir tecnologias?",
+      "introducao": "Vamos examinar os critérios que ajudam a manter consistência e evitar decisões isoladas.",
+      "introducaoReflexoes": "Vamos examinar os critérios que ajudam a manter consistência e evitar decisões isoladas.",
+      "reflexoes": [
+        {
+          "id": "padroes-01",
+          "titulo": "Adoção de padrões",
+          "pergunta": "Utilizamos padrões e tecnologias de referência para orientar as soluções?",
+          "apoio": "Padrões devem apoiar escolhas coerentes, sem impedir exceções justificadas.",
+          "praticas": [
+            {
+              "id": "padroes-01-p01",
+              "texto": "Identificar um padrão tecnológico aplicável a uma solução em análise."
+            },
+            {
+              "id": "padroes-01-p02",
+              "texto": "Verificar se a versão do padrão está atualizada e acessível."
+            },
+            {
+              "id": "padroes-01-p03",
+              "texto": "Registrar a justificativa de uma escolha que siga o padrão."
+            },
+            {
+              "id": "padroes-01-p04",
+              "texto": "Sinalizar uma exceção necessária para avaliação pela governança."
+            }
+          ]
+        },
+        {
+          "id": "padroes-02",
+          "titulo": "Reutilização tecnológica",
+          "pergunta": "Consideramos os serviços e componentes tecnológicos existentes antes de propor novos?",
+          "apoio": "O reaproveitamento pode simplificar a operação e reduzir a diversidade desnecessária.",
+          "praticas": [
+            {
+              "id": "padroes-02-p01",
+              "texto": "Consultar o catálogo de serviços tecnológicos antes de especificar uma solução."
+            },
+            {
+              "id": "padroes-02-p02",
+              "texto": "Identificar um componente compartilhável entre iniciativas."
+            },
+            {
+              "id": "padroes-02-p03",
+              "texto": "Registrar uma restrição que impeça a reutilização de um serviço existente."
+            },
+            {
+              "id": "padroes-02-p04",
+              "texto": "Comparar a alternativa de reutilização com a criação de um componente novo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riscos-obsolescencia",
+      "titulo": "Riscos e obsolescência",
+      "icone": "↗",
+      "descricao": "Enxergamos os riscos de uma base tecnológica que envelhece?",
+      "introducao": "Vamos olhar para vulnerabilidades arquiteturais e dependências que podem comprometer a evolução.",
+      "introducaoReflexoes": "Vamos olhar para vulnerabilidades arquiteturais e dependências que podem comprometer a evolução.",
+      "reflexoes": [
+        {
+          "id": "riscos-obsolescencia-01",
+          "titulo": "Obsolescência",
+          "pergunta": "Identificamos tecnologias cujo ciclo de vida pode afetar as soluções da organização?",
+          "apoio": "A idade de uma tecnologia não basta; importa o risco concreto para os serviços que ela suporta.",
+          "praticas": [
+            {
+              "id": "riscos-obsolescencia-01-p01",
+              "texto": "Identificar um componente sem suporte ou próximo de seu fim de vida."
+            },
+            {
+              "id": "riscos-obsolescencia-01-p02",
+              "texto": "Relacionar esse componente às aplicações ou serviços afetados."
+            },
+            {
+              "id": "riscos-obsolescencia-01-p03",
+              "texto": "Registrar o risco de manter a tecnologia no contexto atual."
+            },
+            {
+              "id": "riscos-obsolescencia-01-p04",
+              "texto": "Comunicar a necessidade de avaliação da substituição ou atualização."
+            }
+          ]
+        },
+        {
+          "id": "riscos-obsolescencia-02",
+          "titulo": "Pontos críticos e dependências",
+          "pergunta": "Conhecemos concentrações e dependências tecnológicas que elevam o risco de interrupção?",
+          "apoio": "A visão arquitetural ajuda a enxergar pontos únicos de falha e fragilidades compartilhadas.",
+          "praticas": [
+            {
+              "id": "riscos-obsolescencia-02-p01",
+              "texto": "Identificar um serviço tecnológico do qual dependam várias aplicações críticas."
+            },
+            {
+              "id": "riscos-obsolescencia-02-p02",
+              "texto": "Registrar uma dependência externa relevante para a continuidade."
+            },
+            {
+              "id": "riscos-obsolescencia-02-p03",
+              "texto": "Verificar se há alternativas previstas para um componente essencial."
+            },
+            {
+              "id": "riscos-obsolescencia-02-p04",
+              "texto": "Encaminhar o risco identificado para avaliação com as equipes responsáveis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evolucao",
+      "titulo": "Arquitetura tecnológica atual e desejada",
+      "icone": "⇄",
+      "descricao": "Sabemos qual mudança tecnológica é necessária?",
+      "introducao": "Vamos comparar a tecnologia existente com aquela necessária para sustentar a arquitetura desejada.",
+      "introducaoReflexoes": "Vamos comparar a tecnologia existente com aquela necessária para sustentar a arquitetura desejada.",
+      "reflexoes": [
+        {
+          "id": "evolucao-01",
+          "titulo": "Situação atual e desejada",
+          "pergunta": "Conseguimos representar, no nível adequado, a tecnologia atual e a necessária no futuro?",
+          "apoio": "A arquitetura tecnológica desejada deve responder aos requisitos e às decisões tomadas nos demais domínios.",
+          "praticas": [
+            {
+              "id": "evolucao-01-p01",
+              "texto": "Descrever a situação atual de um serviço tecnológico relevante."
+            },
+            {
+              "id": "evolucao-01-p02",
+              "texto": "Identificar o serviço ou componente tecnológico esperado no cenário desejado."
+            },
+            {
+              "id": "evolucao-01-p03",
+              "texto": "Relacionar uma mudança tecnológica a requisitos de aplicações e negócio."
+            },
+            {
+              "id": "evolucao-01-p04",
+              "texto": "Validar a proposta com as equipes de infraestrutura e demais arquitetos."
+            }
+          ]
+        },
+        {
+          "id": "evolucao-02",
+          "titulo": "Gaps tecnológicos",
+          "pergunta": "Registramos claramente o que deve mudar, entrar ou deixar de existir no domínio tecnológico?",
+          "apoio": "Os gaps de tecnologia ajudam a consolidar a transformação, sem substituir o planejamento de implementação.",
+          "praticas": [
+            {
+              "id": "evolucao-02-p01",
+              "texto": "Registrar um gap tecnológico específico e sua motivação."
+            },
+            {
+              "id": "evolucao-02-p02",
+              "texto": "Distinguir um gap de tecnologia de um produto escolhido como solução."
+            },
+            {
+              "id": "evolucao-02-p03",
+              "texto": "Relacionar o gap ao serviço ou aplicação que será beneficiado."
+            },
+            {
+              "id": "evolucao-02-p04",
+              "texto": "Compartilhar os gaps para avaliação integrada na Fase E."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

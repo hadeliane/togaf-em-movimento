@@ -1,0 +1,122 @@
+{
+  "chamada": "",
+  "titulo": "TOGAF® em Movimento",
+  "subtitulo": "Do conhecimento à prática, um pequeno passo de cada vez.",
+  "apresentacao": "Explore o ADM, identifique oportunidades de melhoria e escolha seu próximo pequeno passo.",
+  "assinatura": "",
+  "rodape": "TOGAF® é uma marca registrada de The Open Group. Uma experiência SE7Ti.",
+  "ui": {
+    "inicio": "Fases do ADM",
+    "assuntos": "Assuntos",
+    "reflexoes": "Reflexões",
+    "ficha": "Plano de Melhoria Pontual da Arquitetura",
+    "perguntaInicial": "Por onde você quer começar?",
+    "escolhaAssunto": "Escolha um assunto",
+    "escolhaReflexao": "Escolha uma reflexão",
+    "orientacaoReflexoes": "Qual dessas questões merece sua atenção neste momento?",
+    "indisponivel": "O conteúdo desta fase está em preparação.",
+    "breve": "Em preparação",
+    "disponivel": "2 assuntos para explorar",
+    "abrirFicha": "Preencher minha ficha",
+    "pensarMelhoria": "Pensar em uma melhoria",
+    "imprimir": "Salvar em PDF / Imprimir",
+    "voltar": "Voltar",
+    "privacidade": "Suas respostas ficam apenas nesta página durante a utilização. Salve o PDF antes de fechar ou atualizar a página.",
+    "impressao": "Na janela de impressão, escolha “Salvar como PDF”. Respostas extensas podem ocupar mais de uma página.",
+    "erro": "Não foi possível carregar o conteúdo. Verifique os arquivos JSON e tente novamente.",
+    "tentar": "Tentar novamente",
+    "ciclo": "Ciclo iterativo do ADM. A Gestão de Requisitos acompanha todas as fases.",
+    "campos": [
+      "O que já fazemos hoje?",
+      "Qual pequena mudança quero implementar?",
+      "O que vai mostrar que demos um passo adiante?"
+    ]
+  },
+  "inicial": {
+    "imagemADM": "assets/adm/ADM TOGAF 10.png",
+    "imagemAusente": "Imagem em breve",
+    "admAusente": "A imagem do ciclo ADM estará disponível em breve. Explore as fases nos cartões ao lado.",
+    "disponivel": "Conteúdo disponível",
+    "breve": "Conteúdo em breve",
+    "fases": {
+      "preliminar": {
+        "introducao": "Prepare a base para o trabalho de arquitetura. Qual desses aspectos merece sua atenção neste momento?",
+        "descricao": "Prepare a base para o trabalho de arquitetura.",
+        "imagem": "assets/adm/preliminar.png",
+        "disponivel": true
+      },
+      "fase-a": {
+        "disponivel": true,
+        "introducao": "",
+        "descricao": "Defina direção, valor e alinhamento com os envolvidos.",
+        "imagem": "assets/adm/A.png"
+      },
+      "fase-b": {
+        "introducao": "",
+        "descricao": "Entenda capacidades, processos e estrutura do negócio.",
+        "imagem": "assets/adm/B.png",
+        "disponivel": true
+      },
+      "fase-c": {
+        "introducao": "",
+        "descricao": "Analise dados e aplicações que apoiam o negócio.",
+        "imagem": "assets/adm/C.png",
+        "disponivel": true
+      },
+      "fase-d": {
+        "introducao": "",
+        "descricao": "Observe a base tecnológica necessária para sustentar a arquitetura.",
+        "imagem": "assets/adm/D.png",
+        "disponivel": true
+      },
+      "fase-e": {
+        "introducao": "",
+        "descricao": "Identifique caminhos viáveis para evoluir.",
+        "imagem": "assets/adm/E.png",
+        "disponivel": true
+      },
+      "fase-f": {
+        "introducao": "",
+        "descricao": "Organize a transição em etapas realizáveis.",
+        "imagem": "assets/adm/F.png",
+        "disponivel": true
+      },
+      "fase-g": {
+        "introducao": "",
+        "descricao": "Acompanhe a execução e a aderência ao que foi planejado.",
+        "imagem": "assets/adm/G.png",
+        "disponivel": true
+      },
+      "fase-h": {
+        "introducao": "",
+        "descricao": "Avalie mudanças e mantenha a arquitetura viva.",
+        "imagem": "assets/adm/H.png",
+        "disponivel": true
+      },
+      "requisitos": {
+        "introducao": "",
+        "descricao": "Acompanhe os requisitos ao longo de toda a jornada.",
+        "imagem": "assets/adm/Req.png",
+        "disponivel": true
+      }
+    }
+  },
+  "ficha": {
+    "titulo": "Plano de Melhoria Pontual da Arquitetura",
+    "fase": "Fase do ADM",
+    "assunto": "Assunto",
+    "reflexao": "Reflexão",
+    "praticasTitulo": "Alguns pontos para observar",
+    "praticasApoio": "Veja o que sua organização já faz e identifique uma oportunidade para avançar.",
+    "jaFazemos": "Já fazemos",
+    "queroMelhorar": "Quero melhorar isso",
+    "gerar": "Gerar minha ficha",
+    "depois": "Esse fica para depois",
+    "erroPDF": "Não foi possível gerar a ficha. Tente novamente.",
+    "orientacoes": [
+      "Registre brevemente como sua organização trabalha com esse assunto atualmente.",
+      "Pense em uma ação concreta e possível de realizar, mesmo que seja pequena.",
+      "Descreva uma evidência ou resultado que permita perceber a melhoria. Não precisa ser um indicador numérico."
+    ]
+  }
+}

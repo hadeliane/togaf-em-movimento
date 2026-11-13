@@ -1,0 +1,72 @@
+[
+  {
+    "id": "preliminar",
+    "titulo": "Preliminar",
+    "ordem": 0,
+    "sigla": "P",
+    "arquivo": "preliminar.json"
+  },
+  {
+    "id": "fase-a",
+    "titulo": "Visão de Arquitetura",
+    "ordem": 1,
+    "sigla": "A",
+    "arquivo": "fase-a.json"
+  },
+  {
+    "id": "fase-b",
+    "titulo": "Arquitetura de Negócio",
+    "ordem": 2,
+    "sigla": "B",
+    "arquivo": "fase-b.json"
+  },
+  {
+    "id": "fase-c",
+    "titulo": "Arquiteturas de Sistemas de Informação",
+    "ordem": 3,
+    "sigla": "C",
+    "arquivo": "fase-c.json"
+  },
+  {
+    "id": "fase-d",
+    "titulo": "Arquitetura de Tecnologia",
+    "ordem": 4,
+    "sigla": "D",
+    "arquivo": "fase-d.json"
+  },
+  {
+    "id": "fase-e",
+    "titulo": "Oportunidades e Soluções",
+    "ordem": 5,
+    "sigla": "E",
+    "arquivo": "fase-e.json"
+  },
+  {
+    "id": "fase-f",
+    "titulo": "Planejamento da Migração",
+    "ordem": 6,
+    "sigla": "F",
+    "arquivo": "fase-f.json"
+  },
+  {
+    "id": "fase-g",
+    "titulo": "Governança da Implementação",
+    "ordem": 7,
+    "sigla": "G",
+    "arquivo": "fase-g.json"
+  },
+  {
+    "id": "fase-h",
+    "titulo": "Gestão de Mudanças na Arquitetura",
+    "ordem": 8,
+    "sigla": "H",
+    "arquivo": "fase-h.json"
+  },
+  {
+    "id": "requisitos",
+    "titulo": "Gestão de Requisitos",
+    "ordem": 9,
+    "sigla": "R",
+    "arquivo": "requisitos.json"
+  }
+]

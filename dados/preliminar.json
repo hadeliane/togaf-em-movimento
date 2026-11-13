@@ -1,0 +1,486 @@
+{
+  "id": "preliminar",
+  "titulo": "Preliminar",
+  "ordem": 0,
+  "sigla": "P",
+  "arquivo": "preliminar.json",
+  "descricao": "Prepare a base para o trabalho de arquitetura.",
+  "introducao": "Prepare a base para o trabalho de arquitetura. Qual desses aspectos merece sua atenção neste momento?",
+  "assuntos": [
+    {
+      "id": "abrangencia",
+      "titulo": "Abrangência",
+      "icone": "◉",
+      "descricao": "Onde atuamos e com quais áreas precisamos nos conectar?",
+      "introducaoReflexoes": "Vamos olhar mais de perto a abrangência da nossa atuação. Qual dessas questões merece atenção?",
+      "reflexoes": [
+        {
+          "id": "abrangencia-01",
+          "titulo": "Escopo de atuação",
+          "pergunta": "Está claro em quais áreas e unidades da organização a Arquitetura Corporativa atua?",
+          "apoio": "Sabemos o que está abrangido pela nossa atuação hoje e onde ela ainda pode evoluir?",
+          "praticas": [
+            {
+              "id": "escopo-areas",
+              "texto": "Identificar as áreas e unidades atendidas pela Arquitetura Corporativa."
+            },
+            {
+              "id": "escopo-documentacao",
+              "texto": "Definir e documentar o escopo de atuação da equipe."
+            },
+            {
+              "id": "escopo-alinhamento",
+              "texto": "Alinhar esse escopo com as áreas envolvidas."
+            },
+            {
+              "id": "escopo-lacunas",
+              "texto": "Identificar áreas ou unidades que ainda não são contempladas."
+            },
+            {
+              "id": "escopo-revisao",
+              "texto": "Revisar periodicamente o escopo de atuação."
+            }
+          ]
+        },
+        {
+          "id": "abrangencia-02",
+          "titulo": "Interfaces com outras áreas",
+          "pergunta": "Está definido como a equipe de arquitetura se relaciona com outras áreas da organização?",
+          "apoio": "Sabemos quando e como envolver as áreas de negócio, TI, riscos, projetos e outras equipes?",
+          "praticas": [
+            {
+              "id": "abrangencia-02-p01",
+              "texto": "Identificar as áreas com as quais a equipe de arquitetura precisa interagir regularmente."
+            },
+            {
+              "id": "abrangencia-02-p02",
+              "texto": "Registrar em quais situações cada área deve ser envolvida nos trabalhos de arquitetura."
+            },
+            {
+              "id": "abrangencia-02-p03",
+              "texto": "Definir um ponto de contato para facilitar a comunicação com uma área parceira."
+            },
+            {
+              "id": "abrangencia-02-p04",
+              "texto": "Combinar com uma área um modo simples de solicitar e compartilhar informações de arquitetura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equipe",
+      "titulo": "Equipe de Arquitetura",
+      "icone": "◎",
+      "descricao": "Como estamos organizados para fazer arquitetura?",
+      "introducaoReflexoes": "Vamos olhar para a maneira como a equipe de arquitetura está organizada. O que podemos aperfeiçoar?",
+      "reflexoes": [
+        {
+          "id": "equipe-01",
+          "titulo": "Papéis e responsabilidades",
+          "pergunta": "A equipe possui papéis e responsabilidades claramente definidos?",
+          "apoio": "As pessoas sabem o que se espera delas e como suas responsabilidades se relacionam?",
+          "praticas": [
+            {
+              "id": "equipe-01-p01",
+              "texto": "Relacionar as atividades de arquitetura mais frequentes e seus responsáveis."
+            },
+            {
+              "id": "equipe-01-p02",
+              "texto": "Esclarecer quem participa, quem decide e quem executa em uma atividade recorrente."
+            },
+            {
+              "id": "equipe-01-p03",
+              "texto": "Identificar atividades que ainda não possuem responsabilidade claramente atribuída."
+            },
+            {
+              "id": "equipe-01-p04",
+              "texto": "Compartilhar com a equipe um registro simples dos papéis e responsabilidades acordados."
+            }
+          ]
+        },
+        {
+          "id": "equipe-02",
+          "titulo": "Competências",
+          "pergunta": "Conhecemos as competências necessárias ao trabalho de arquitetura e as que precisamos desenvolver?",
+          "apoio": "Temos clareza sobre nossos pontos fortes e as competências que merecem atenção?",
+          "praticas": [
+            {
+              "id": "equipe-02-p01",
+              "texto": "Identificar as competências necessárias aos tipos de trabalho realizados pela equipe."
+            },
+            {
+              "id": "equipe-02-p02",
+              "texto": "Registrar os conhecimentos e as habilidades já disponíveis entre os integrantes."
+            },
+            {
+              "id": "equipe-02-p03",
+              "texto": "Selecionar uma competência que precisa ser fortalecida no curto prazo."
+            },
+            {
+              "id": "equipe-02-p04",
+              "texto": "Promover uma troca de conhecimentos ou uma atividade de aprendizagem sobre essa competência."
+            }
+          ]
+        },
+        {
+          "id": "equipe-03",
+          "titulo": "Organização e colaboração",
+          "pergunta": "A organização da equipe favorece a colaboração entre as diferentes especialidades de arquitetura?",
+          "apoio": "Conseguimos reunir os conhecimentos necessários para analisar os problemas de forma integrada?",
+          "praticas": [
+            {
+              "id": "equipe-03-p01",
+              "texto": "Identificar quais especialidades devem colaborar nos diferentes tipos de demanda."
+            },
+            {
+              "id": "equipe-03-p02",
+              "texto": "Envolver profissionais de mais de um domínio de arquitetura na análise de uma demanda."
+            },
+            {
+              "id": "equipe-03-p03",
+              "texto": "Combinar momentos de revisão conjunta dos modelos produzidos pela equipe."
+            },
+            {
+              "id": "equipe-03-p04",
+              "texto": "Registrar decisões que dependam da contribuição de diferentes especialidades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferramentas-repositorio",
+      "titulo": "Ferramentas e Repositório",
+      "icone": "▣",
+      "descricao": "Como apoiamos, organizamos e reutilizamos nosso trabalho?",
+      "introducaoReflexoes": "Vamos observar como nossas ferramentas e nosso repositório apoiam o trabalho. Onde existe espaço para melhorar?",
+      "reflexoes": [
+        {
+          "id": "ferramentas-repositorio-01",
+          "titulo": "Ferramentas de trabalho",
+          "pergunta": "As ferramentas utilizadas atendem às necessidades de modelagem, análise e colaboração da equipe?",
+          "apoio": "Elas facilitam o trabalho conjunto ou geram retrabalho e dificuldades de integração?",
+          "praticas": [
+            {
+              "id": "ferramentas-repositorio-01-p01",
+              "texto": "Identificar uma atividade em que o uso das ferramentas provoca retrabalho."
+            },
+            {
+              "id": "ferramentas-repositorio-01-p02",
+              "texto": "Definir uma convenção simples para criar ou compartilhar modelos nas ferramentas utilizadas."
+            },
+            {
+              "id": "ferramentas-repositorio-01-p03",
+              "texto": "Experimentar um recurso que facilite a colaboração ou a revisão de modelos."
+            },
+            {
+              "id": "ferramentas-repositorio-01-p04",
+              "texto": "Registrar orientações básicas para que a equipe utilize uma ferramenta de forma consistente."
+            }
+          ]
+        },
+        {
+          "id": "ferramentas-repositorio-02",
+          "titulo": "Organização do repositório",
+          "pergunta": "Nossos modelos, documentos e decisões de arquitetura estão organizados e são fáceis de localizar?",
+          "apoio": "Temos um lugar de referência e critérios comuns para organizar o conteúdo produzido?",
+          "praticas": [
+            {
+              "id": "ferramentas-repositorio-02-p01",
+              "texto": "Definir um local de referência para armazenar os artefatos de arquitetura."
+            },
+            {
+              "id": "ferramentas-repositorio-02-p02",
+              "texto": "Adotar uma convenção simples de nomes, versões e organização dos arquivos."
+            },
+            {
+              "id": "ferramentas-repositorio-02-p03",
+              "texto": "Organizar uma pequena coleção de modelos e documentos segundo essa convenção."
+            },
+            {
+              "id": "ferramentas-repositorio-02-p04",
+              "texto": "Definir quem pode atualizar os conteúdos e como localizar a versão vigente."
+            }
+          ]
+        },
+        {
+          "id": "ferramentas-repositorio-03",
+          "titulo": "Reutilização do conhecimento",
+          "pergunta": "Conseguimos reutilizar os artefatos produzidos em iniciativas anteriores?",
+          "apoio": "Sabemos o que pode ser reaproveitado e como manter esse conhecimento atualizado?",
+          "praticas": [
+            {
+              "id": "ferramentas-repositorio-03-p01",
+              "texto": "Consultar o repositório antes de produzir um artefato semelhante a outro já existente."
+            },
+            {
+              "id": "ferramentas-repositorio-03-p02",
+              "texto": "Identificar modelos ou componentes que possam ser reutilizados em novas iniciativas."
+            },
+            {
+              "id": "ferramentas-repositorio-03-p03",
+              "texto": "Registrar a origem e a data de revisão de um artefato reutilizado."
+            },
+            {
+              "id": "ferramentas-repositorio-03-p04",
+              "texto": "Atualizar e disponibilizar no repositório um artefato melhorado durante um novo trabalho."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indicadores",
+      "titulo": "Indicadores",
+      "icone": "↗",
+      "descricao": "Como mostramos que a arquitetura faz diferença?",
+      "introducaoReflexoes": "Vamos pensar em como tornar visíveis os resultados da arquitetura e a evolução da equipe. O que merece atenção?",
+      "reflexoes": [
+        {
+          "id": "indicadores-01",
+          "titulo": "Valor para a organização",
+          "pergunta": "Conseguimos demonstrar como a Arquitetura Corporativa contribui para as decisões da organização?",
+          "apoio": "Que resultados ou evidências poderiam tornar essa contribuição mais visível?",
+          "praticas": [
+            {
+              "id": "indicadores-01-p01",
+              "texto": "Selecionar uma decisão recente que tenha contado com a contribuição da arquitetura."
+            },
+            {
+              "id": "indicadores-01-p02",
+              "texto": "Registrar que informação ou análise de arquitetura ajudou nessa decisão."
+            },
+            {
+              "id": "indicadores-01-p03",
+              "texto": "Pedir a uma área atendida um retorno breve sobre a utilidade do trabalho de arquitetura."
+            },
+            {
+              "id": "indicadores-01-p04",
+              "texto": "Compartilhar um exemplo concreto de valor entregue pela arquitetura."
+            }
+          ]
+        },
+        {
+          "id": "indicadores-02",
+          "titulo": "Evolução da capacidade",
+          "pergunta": "Acompanhamos a evolução da nossa capacidade de Arquitetura Corporativa?",
+          "apoio": "Temos indicadores ou evidências que nos ajudem a perceber melhorias ao longo do tempo?",
+          "praticas": [
+            {
+              "id": "indicadores-02-p01",
+              "texto": "Escolher um aspecto da capacidade de arquitetura que a equipe deseja acompanhar."
+            },
+            {
+              "id": "indicadores-02-p02",
+              "texto": "Definir uma evidência simples para observar a evolução desse aspecto."
+            },
+            {
+              "id": "indicadores-02-p03",
+              "texto": "Registrar a situação atual como referência para comparações futuras."
+            },
+            {
+              "id": "indicadores-02-p04",
+              "texto": "Revisitar a evidência após um período e discutir o que melhorou e o que ainda precisa de atenção."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metamodelo",
+      "titulo": "Metamodelo",
+      "icone": "✣",
+      "descricao": "Falamos a mesma língua ao representar a arquitetura?",
+      "introducaoReflexoes": "Vamos observar como representamos os elementos da organização e suas relações. O que pode ficar mais claro ou mais útil?",
+      "reflexoes": [
+        {
+          "id": "metamodelo-01",
+          "titulo": "Elementos e relacionamentos",
+          "pergunta": "Temos uma definição compartilhada dos elementos e relacionamentos utilizados nos nossos modelos?",
+          "apoio": "Os conceitos são usados de forma consistente ou cada trabalho adota sua própria estrutura?",
+          "praticas": [
+            {
+              "id": "metamodelo-01-p01",
+              "texto": "Relacionar os tipos de elementos e relacionamentos mais utilizados nos modelos."
+            },
+            {
+              "id": "metamodelo-01-p02",
+              "texto": "Registrar definições curtas e exemplos para os conceitos que geram dúvidas."
+            },
+            {
+              "id": "metamodelo-01-p03",
+              "texto": "Comparar dois modelos para identificar usos diferentes do mesmo conceito."
+            },
+            {
+              "id": "metamodelo-01-p04",
+              "texto": "Alinhar uma convenção de modelagem e compartilhá-la com a equipe."
+            }
+          ]
+        },
+        {
+          "id": "metamodelo-02",
+          "titulo": "Adequação às necessidades",
+          "pergunta": "Nosso metamodelo ajuda a responder às perguntas que precisamos responder sobre a organização?",
+          "apoio": "Há informações importantes que não conseguimos representar ou detalhes que não agregam valor?",
+          "praticas": [
+            {
+              "id": "metamodelo-02-p01",
+              "texto": "Escolher uma pergunta real que os modelos de arquitetura precisam ajudar a responder."
+            },
+            {
+              "id": "metamodelo-02-p02",
+              "texto": "Verificar se os elementos e relacionamentos existentes permitem responder a essa pergunta."
+            },
+            {
+              "id": "metamodelo-02-p03",
+              "texto": "Identificar informações que faltam ou detalhes que não contribuem para a análise."
+            },
+            {
+              "id": "metamodelo-02-p04",
+              "texto": "Testar um pequeno ajuste no metamodelo antes de adotá-lo em outros trabalhos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principios",
+      "titulo": "Princípios de Arquitetura",
+      "icone": "◇",
+      "descricao": "O que orienta nossas decisões de arquitetura?",
+      "introducaoReflexoes": "Vamos olhar para os princípios que orientam as decisões de arquitetura. O que podemos fortalecer?",
+      "reflexoes": [
+        {
+          "id": "principios-01",
+          "titulo": "Definição dos princípios",
+          "pergunta": "Temos princípios de arquitetura definidos e alinhados às diretrizes da organização?",
+          "apoio": "Os princípios estão documentados de forma clara e são conhecidos pelas pessoas envolvidas?",
+          "praticas": [
+            {
+              "id": "principios-01-p01",
+              "texto": "Reunir os princípios de arquitetura já adotados pela organização."
+            },
+            {
+              "id": "principios-01-p02",
+              "texto": "Verificar se um princípio está alinhado aos objetivos e às diretrizes organizacionais."
+            },
+            {
+              "id": "principios-01-p03",
+              "texto": "Revisar a redação de um princípio para torná-lo mais claro e aplicável."
+            },
+            {
+              "id": "principios-01-p04",
+              "texto": "Compartilhar com as equipes envolvidas um exemplo de interpretação de um princípio."
+            }
+          ]
+        },
+        {
+          "id": "principios-02",
+          "titulo": "Aplicação nas decisões",
+          "pergunta": "Os princípios são efetivamente utilizados para orientar e justificar decisões arquiteturais?",
+          "apoio": "Conseguimos identificar decisões concretas que foram influenciadas por esses princípios?",
+          "praticas": [
+            {
+              "id": "principios-02-p01",
+              "texto": "Consultar os princípios relevantes antes de tomar uma decisão de arquitetura."
+            },
+            {
+              "id": "principios-02-p02",
+              "texto": "Registrar quais princípios fundamentaram uma decisão arquitetural."
+            },
+            {
+              "id": "principios-02-p03",
+              "texto": "Discutir com os envolvidos quando dois princípios apontarem para escolhas diferentes."
+            },
+            {
+              "id": "principios-02-p04",
+              "texto": "Documentar a justificativa quando uma decisão exigir exceção a um princípio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processos-servicos",
+      "titulo": "Processos e Serviços",
+      "icone": "⇄",
+      "descricao": "Como a equipe de arquitetura organiza e oferece seu trabalho?",
+      "introducaoReflexoes": "Vamos observar como organizamos e oferecemos nossos serviços de arquitetura. O que podemos melhorar na prática?",
+      "reflexoes": [
+        {
+          "id": "processos-servicos-01",
+          "titulo": "Serviços de arquitetura",
+          "pergunta": "Está claro quais serviços de Arquitetura Corporativa oferecemos e quando as áreas devem nos envolver?",
+          "apoio": "As áreas sabem que apoio podem solicitar e o que esperar da equipe de arquitetura?",
+          "praticas": [
+            {
+              "id": "processos-servicos-01-p01",
+              "texto": "Identificar os tipos de apoio que a equipe de arquitetura já oferece às áreas."
+            },
+            {
+              "id": "processos-servicos-01-p02",
+              "texto": "Descrever um serviço de arquitetura com seu objetivo e resultado esperado."
+            },
+            {
+              "id": "processos-servicos-01-p03",
+              "texto": "Esclarecer em quais situações as áreas devem solicitar esse serviço."
+            },
+            {
+              "id": "processos-servicos-01-p04",
+              "texto": "Compartilhar uma descrição curta desse serviço com uma área que o utiliza."
+            }
+          ]
+        },
+        {
+          "id": "processos-servicos-02",
+          "titulo": "Fluxo de demandas",
+          "pergunta": "Temos um processo definido para receber, avaliar e acompanhar demandas de arquitetura?",
+          "apoio": "Estão claros os pontos de entrada, as responsabilidades e os resultados esperados?",
+          "praticas": [
+            {
+              "id": "processos-servicos-02-p01",
+              "texto": "Mapear como uma demanda de arquitetura chega atualmente à equipe."
+            },
+            {
+              "id": "processos-servicos-02-p02",
+              "texto": "Definir quais informações mínimas são necessárias para avaliar uma nova demanda."
+            },
+            {
+              "id": "processos-servicos-02-p03",
+              "texto": "Registrar o responsável e a situação de uma demanda em andamento."
+            },
+            {
+              "id": "processos-servicos-02-p04",
+              "texto": "Testar um fluxo simples de recebimento e acompanhamento em uma nova solicitação."
+            }
+          ]
+        },
+        {
+          "id": "processos-servicos-03",
+          "titulo": "Adaptação do ADM",
+          "pergunta": "Adaptamos o ADM às necessidades e aos diferentes tipos de trabalho da organização?",
+          "apoio": "Sabemos escolher as atividades, técnicas e artefatos adequados a cada iniciativa?",
+          "praticas": [
+            {
+              "id": "processos-servicos-03-p01",
+              "texto": "Identificar os tipos mais frequentes de trabalho de arquitetura na organização."
+            },
+            {
+              "id": "processos-servicos-03-p02",
+              "texto": "Escolher as atividades do ADM mais úteis para um desses tipos de trabalho."
+            },
+            {
+              "id": "processos-servicos-03-p03",
+              "texto": "Definir os artefatos essenciais para conduzir uma iniciativa desse tipo."
+            },
+            {
+              "id": "processos-servicos-03-p04",
+              "texto": "Revisar a adaptação utilizada após uma iniciativa e registrar o que funcionou."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

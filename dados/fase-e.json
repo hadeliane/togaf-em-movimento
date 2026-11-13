@@ -1,0 +1,301 @@
+{
+  "id": "fase-e",
+  "titulo": "Fase E: Oportunidades e Soluções",
+  "ordem": 5,
+  "sigla": "E",
+  "arquivo": "fase-e.json",
+  "descricao": "Transforme gaps em caminhos possíveis de solução.",
+  "introducao": "Reúna as mudanças necessárias nos diferentes domínios e explore caminhos para realizá-las. O que ajudaria sua equipe a sair da arquitetura desejada e começar a organizar a transformação?",
+  "assuntos": [
+    {
+      "id": "consolidacao-gaps",
+      "titulo": "Consolidação dos gaps",
+      "icone": "✣",
+      "descricao": "Conseguimos enxergar a mudança como um todo?",
+      "introducao": "Vamos reunir as lacunas identificadas no negócio, nos dados, nas aplicações e na tecnologia.",
+      "introducaoReflexoes": "Vamos reunir as lacunas identificadas no negócio, nos dados, nas aplicações e na tecnologia.",
+      "reflexoes": [
+        {
+          "id": "consolidacao-gaps-01",
+          "titulo": "Gaps entre domínios",
+          "pergunta": "Conseguimos consolidar os gaps dos diferentes domínios sem perder suas relações?",
+          "apoio": "Um mesmo problema de negócio pode depender de mudanças em mais de um domínio.",
+          "praticas": [
+            {
+              "id": "consolidacao-gaps-01-p01",
+              "texto": "Reunir gaps de negócio, dados, aplicações e tecnologia de uma iniciativa."
+            },
+            {
+              "id": "consolidacao-gaps-01-p02",
+              "texto": "Identificar gaps que dependem de mudanças em outros domínios."
+            },
+            {
+              "id": "consolidacao-gaps-01-p03",
+              "texto": "Eliminar duplicidades entre registros que descrevam a mesma necessidade."
+            },
+            {
+              "id": "consolidacao-gaps-01-p04",
+              "texto": "Relacionar os gaps consolidados aos objetivos da transformação."
+            }
+          ]
+        },
+        {
+          "id": "consolidacao-gaps-02",
+          "titulo": "Dependências arquiteturais",
+          "pergunta": "Reconhecemos quais mudanças precisam acontecer juntas ou em determinada ordem?",
+          "apoio": "As dependências entre gaps ajudam a evitar pacotes de trabalho que não entregam resultado isoladamente.",
+          "praticas": [
+            {
+              "id": "consolidacao-gaps-02-p01",
+              "texto": "Identificar uma dependência entre dois gaps relevantes."
+            },
+            {
+              "id": "consolidacao-gaps-02-p02",
+              "texto": "Registrar uma mudança prévia necessária para viabilizar outra."
+            },
+            {
+              "id": "consolidacao-gaps-02-p03",
+              "texto": "Distinguir dependência obrigatória de preferência de implementação."
+            },
+            {
+              "id": "consolidacao-gaps-02-p04",
+              "texto": "Revisar uma dependência com profissionais dos domínios envolvidos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternativas",
+      "titulo": "Alternativas de solução",
+      "icone": "◇",
+      "descricao": "Consideramos diferentes caminhos antes de escolher?",
+      "introducao": "Vamos explorar alternativas para atender à arquitetura desejada e suas restrições.",
+      "introducaoReflexoes": "Vamos explorar alternativas para atender à arquitetura desejada e suas restrições.",
+      "reflexoes": [
+        {
+          "id": "alternativas-01",
+          "titulo": "Opções de solução",
+          "pergunta": "Avaliamos alternativas antes de decidir como tratar os gaps?",
+          "apoio": "Uma mesma necessidade pode ser atendida por reutilização, adaptação, aquisição ou desenvolvimento.",
+          "praticas": [
+            {
+              "id": "alternativas-01-p01",
+              "texto": "Listar duas alternativas plausíveis para um gap importante."
+            },
+            {
+              "id": "alternativas-01-p02",
+              "texto": "Verificar se existe um bloco de construção reutilizável para a necessidade."
+            },
+            {
+              "id": "alternativas-01-p03",
+              "texto": "Registrar uma restrição que elimine uma alternativa."
+            },
+            {
+              "id": "alternativas-01-p04",
+              "texto": "Explicitar por que a alternativa preferida parece mais adequada."
+            }
+          ]
+        },
+        {
+          "id": "alternativas-02",
+          "titulo": "Blocos de construção",
+          "pergunta": "Conseguimos distinguir o que a arquitetura exige dos componentes de solução que podem realizar essa necessidade?",
+          "apoio": "Essa distinção ajuda a manter escolhas técnicas abertas até a avaliação apropriada.",
+          "praticas": [
+            {
+              "id": "alternativas-02-p01",
+              "texto": "Descrever uma necessidade arquitetural sem citar um produto específico."
+            },
+            {
+              "id": "alternativas-02-p02",
+              "texto": "Relacionar uma alternativa de solução ao requisito que ela atende."
+            },
+            {
+              "id": "alternativas-02-p03",
+              "texto": "Identificar um bloco de construção existente que possa ser reaproveitado."
+            },
+            {
+              "id": "alternativas-02-p04",
+              "texto": "Registrar uma decisão quando uma alternativa for selecionada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pacotes-trabalho",
+      "titulo": "Pacotes de trabalho",
+      "icone": "▣",
+      "descricao": "Conseguimos organizar a transformação em partes realizáveis?",
+      "introducao": "Vamos agrupar as mudanças em entregas que possam ser planejadas e acompanhadas.",
+      "introducaoReflexoes": "Vamos agrupar as mudanças em entregas que possam ser planejadas e acompanhadas.",
+      "reflexoes": [
+        {
+          "id": "pacotes-trabalho-01",
+          "titulo": "Agrupamento de mudanças",
+          "pergunta": "Identificamos conjuntos coerentes de mudanças que podem ser tratados como pacotes de trabalho?",
+          "apoio": "Um pacote deve reunir mudanças relacionadas a um resultado, e não apenas reproduzir departamentos.",
+          "praticas": [
+            {
+              "id": "pacotes-trabalho-01-p01",
+              "texto": "Agrupar gaps relacionados a um mesmo resultado de negócio."
+            },
+            {
+              "id": "pacotes-trabalho-01-p02",
+              "texto": "Definir o resultado esperado de um pacote de trabalho."
+            },
+            {
+              "id": "pacotes-trabalho-01-p03",
+              "texto": "Registrar as principais mudanças arquiteturais abrangidas pelo pacote."
+            },
+            {
+              "id": "pacotes-trabalho-01-p04",
+              "texto": "Verificar se o pacote depende de outros para produzir valor."
+            }
+          ]
+        },
+        {
+          "id": "pacotes-trabalho-02",
+          "titulo": "Oportunidades de entrega",
+          "pergunta": "Conseguimos identificar entregas que gerem benefício antes da transformação completa?",
+          "apoio": "Nem toda melhoria precisa esperar o estado final da arquitetura desejada.",
+          "praticas": [
+            {
+              "id": "pacotes-trabalho-02-p01",
+              "texto": "Identificar um resultado intermediário útil para o negócio."
+            },
+            {
+              "id": "pacotes-trabalho-02-p02",
+              "texto": "Verificar quais capacidades precisam estar disponíveis para esse resultado."
+            },
+            {
+              "id": "pacotes-trabalho-02-p03",
+              "texto": "Separar uma entrega viável de um conjunto maior de mudanças."
+            },
+            {
+              "id": "pacotes-trabalho-02-p04",
+              "texto": "Anotar o benefício esperado de uma oportunidade de entrega antecipada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transicao",
+      "titulo": "Arquiteturas de Transição",
+      "icone": "⇄",
+      "descricao": "Precisamos definir estados intermediários importantes?",
+      "introducao": "Vamos reconhecer quando a organização precisará operar em uma configuração intermediária antes de chegar ao destino.",
+      "introducaoReflexoes": "Vamos reconhecer quando a organização precisará operar em uma configuração intermediária antes de chegar ao destino.",
+      "reflexoes": [
+        {
+          "id": "transicao-01",
+          "titulo": "Necessidade de transição",
+          "pergunta": "Identificamos situações em que não é viável passar diretamente da arquitetura atual para a desejada?",
+          "apoio": "Arquiteturas de Transição descrevem estados intermediários arquiteturalmente significativos.",
+          "praticas": [
+            {
+              "id": "transicao-01-p01",
+              "texto": "Identificar uma restrição que impeça a mudança direta para o estado desejado."
+            },
+            {
+              "id": "transicao-01-p02",
+              "texto": "Descrever uma capacidade que precise existir em um estado intermediário."
+            },
+            {
+              "id": "transicao-01-p03",
+              "texto": "Verificar se o estado intermediário é arquiteturalmente significativo."
+            },
+            {
+              "id": "transicao-01-p04",
+              "texto": "Registrar a razão para manter temporariamente componentes antigos e novos."
+            }
+          ]
+        },
+        {
+          "id": "transicao-02",
+          "titulo": "Coerência dos estados intermediários",
+          "pergunta": "Conseguimos verificar se um estado intermediário atende ao negócio e mantém dependências essenciais?",
+          "apoio": "Um estado intermediário deve funcionar de forma coerente, mesmo antes de todo o programa estar concluído.",
+          "praticas": [
+            {
+              "id": "transicao-02-p01",
+              "texto": "Identificar um serviço que não pode ser interrompido durante a transição."
+            },
+            {
+              "id": "transicao-02-p02",
+              "texto": "Verificar quais componentes precisam coexistir temporariamente."
+            },
+            {
+              "id": "transicao-02-p03",
+              "texto": "Registrar uma limitação conhecida de um estado intermediário."
+            },
+            {
+              "id": "transicao-02-p04",
+              "texto": "Validar as principais condições de operação com as áreas envolvidas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roteiro-inicial",
+      "titulo": "Roteiro inicial da transformação",
+      "icone": "↗",
+      "descricao": "Já conseguimos visualizar os grandes passos da mudança?",
+      "introducao": "Vamos criar uma primeira visão do caminho, deixando o planejamento detalhado para a Fase F.",
+      "introducaoReflexoes": "Vamos criar uma primeira visão do caminho, deixando o planejamento detalhado para a Fase F.",
+      "reflexoes": [
+        {
+          "id": "roteiro-inicial-01",
+          "titulo": "Sequência inicial de mudanças",
+          "pergunta": "Conseguimos apresentar uma sequência inicial plausível dos pacotes de trabalho?",
+          "apoio": "O roteiro inicial orienta decisões e alimenta o planejamento posterior, sem pretender substituir um cronograma.",
+          "praticas": [
+            {
+              "id": "roteiro-inicial-01-p01",
+              "texto": "Ordenar os principais pacotes de trabalho conforme dependências conhecidas."
+            },
+            {
+              "id": "roteiro-inicial-01-p02",
+              "texto": "Destacar uma entrega intermediária relevante para o negócio."
+            },
+            {
+              "id": "roteiro-inicial-01-p03",
+              "texto": "Registrar uma premissa ainda não confirmada sobre a sequência."
+            },
+            {
+              "id": "roteiro-inicial-01-p04",
+              "texto": "Compartilhar o roteiro inicial com quem participará do planejamento."
+            }
+          ]
+        },
+        {
+          "id": "roteiro-inicial-02",
+          "titulo": "Riscos e restrições de solução",
+          "pergunta": "Identificamos riscos e restrições que podem comprometer as alternativas escolhidas?",
+          "apoio": "Riscos de integração, capacidade, recursos ou transição podem alterar a solução ou o agrupamento das mudanças.",
+          "praticas": [
+            {
+              "id": "roteiro-inicial-02-p01",
+              "texto": "Registrar um risco importante de uma alternativa de solução."
+            },
+            {
+              "id": "roteiro-inicial-02-p02",
+              "texto": "Identificar uma dependência externa que afete a viabilidade do caminho."
+            },
+            {
+              "id": "roteiro-inicial-02-p03",
+              "texto": "Verificar com especialistas uma restrição crítica da proposta."
+            },
+            {
+              "id": "roteiro-inicial-02-p04",
+              "texto": "Indicar uma ação de investigação para reduzir uma incerteza relevante."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

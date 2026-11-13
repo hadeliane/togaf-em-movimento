@@ -1,0 +1,301 @@
+{
+  "id": "fase-h",
+  "titulo": "Fase H: Gestão de Mudanças da Arquitetura",
+  "ordem": 8,
+  "sigla": "H",
+  "arquivo": "fase-h.json",
+  "descricao": "Acompanhe as mudanças e mantenha a arquitetura relevante.",
+  "introducao": "Depois da implementação, o contexto continua mudando. Como perceber novas necessidades e decidir quando atualizar a arquitetura ou iniciar outro ciclo de trabalho?",
+  "assuntos": [
+    {
+      "id": "monitoramento",
+      "titulo": "Acompanhamento da arquitetura",
+      "icone": "◎",
+      "descricao": "Continuamos observando se a arquitetura atende ao negócio?",
+      "introducao": "Vamos acompanhar resultados e sinais de que a arquitetura possa precisar de ajustes.",
+      "introducaoReflexoes": "Vamos acompanhar resultados e sinais de que a arquitetura possa precisar de ajustes.",
+      "reflexoes": [
+        {
+          "id": "monitoramento-01",
+          "titulo": "Resultados e valor",
+          "pergunta": "Acompanhamos se os resultados esperados da arquitetura continuam sendo alcançados?",
+          "apoio": "O monitoramento de valor ajuda a perceber quando uma arquitetura deixou de responder ao que se esperava.",
+          "praticas": [
+            {
+              "id": "monitoramento-01-p01",
+              "texto": "Relacionar um resultado de negócio a uma iniciativa arquitetural concluída."
+            },
+            {
+              "id": "monitoramento-01-p02",
+              "texto": "Consultar um indicador que sinalize melhoria ou perda de desempenho."
+            },
+            {
+              "id": "monitoramento-01-p03",
+              "texto": "Registrar um resultado que ficou abaixo do esperado."
+            },
+            {
+              "id": "monitoramento-01-p04",
+              "texto": "Conversar com a área interessada sobre a continuidade do benefício."
+            }
+          ]
+        },
+        {
+          "id": "monitoramento-02",
+          "titulo": "Sinais de mudança",
+          "pergunta": "Temos formas de perceber mudanças que possam afetar a arquitetura existente?",
+          "apoio": "Estratégia, regulamentação, operação e tecnologia podem criar novas demandas arquiteturais.",
+          "praticas": [
+            {
+              "id": "monitoramento-02-p01",
+              "texto": "Identificar uma fonte de informação sobre mudanças relevantes do negócio."
+            },
+            {
+              "id": "monitoramento-02-p02",
+              "texto": "Registrar uma mudança regulatória ou tecnológica com possível impacto."
+            },
+            {
+              "id": "monitoramento-02-p03",
+              "texto": "Consultar periodicamente áreas que observam mudanças no contexto."
+            },
+            {
+              "id": "monitoramento-02-p04",
+              "texto": "Relacionar um sinal de mudança ao elemento de arquitetura possivelmente afetado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solicitacoes",
+      "titulo": "Solicitações de mudança",
+      "icone": "⇄",
+      "descricao": "As necessidades de mudança chegam de forma clara à arquitetura?",
+      "introducao": "Vamos observar como registrar, compreender e encaminhar mudanças relevantes.",
+      "introducaoReflexoes": "Vamos observar como registrar, compreender e encaminhar mudanças relevantes.",
+      "reflexoes": [
+        {
+          "id": "solicitacoes-01",
+          "titulo": "Registro de mudanças",
+          "pergunta": "Conseguimos receber e registrar solicitações de mudança arquitetural de forma consistente?",
+          "apoio": "Uma solicitação deve explicar o motivo da mudança, e não apenas pedir uma nova tecnologia.",
+          "praticas": [
+            {
+              "id": "solicitacoes-01-p01",
+              "texto": "Registrar a origem e a motivação de uma solicitação de mudança."
+            },
+            {
+              "id": "solicitacoes-01-p02",
+              "texto": "Identificar a arquitetura ou o serviço potencialmente afetado."
+            },
+            {
+              "id": "solicitacoes-01-p03",
+              "texto": "Descrever o resultado que se espera alcançar com a mudança."
+            },
+            {
+              "id": "solicitacoes-01-p04",
+              "texto": "Definir uma forma de acompanhar o andamento da solicitação."
+            }
+          ]
+        },
+        {
+          "id": "solicitacoes-02",
+          "titulo": "Análise de impacto",
+          "pergunta": "Analisamos o impacto de mudanças propostas antes de decidir como tratá-las?",
+          "apoio": "Uma mudança localizada pode repercutir em outros domínios, requisitos e iniciativas.",
+          "praticas": [
+            {
+              "id": "solicitacoes-02-p01",
+              "texto": "Identificar elementos de arquitetura afetados por uma solicitação."
+            },
+            {
+              "id": "solicitacoes-02-p02",
+              "texto": "Relacionar a mudança a requisitos ou decisões existentes."
+            },
+            {
+              "id": "solicitacoes-02-p03",
+              "texto": "Registrar um risco de não realizar a mudança solicitada."
+            },
+            {
+              "id": "solicitacoes-02-p04",
+              "texto": "Consultar os responsáveis pelos domínios impactados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tratamento",
+      "titulo": "Tratamento proporcional das mudanças",
+      "icone": "◇",
+      "descricao": "Sabemos quando ajustar e quando iniciar uma nova iniciativa?",
+      "introducao": "Vamos diferenciar manutenção arquitetural de mudanças que exigem trabalho mais amplo.",
+      "introducaoReflexoes": "Vamos diferenciar manutenção arquitetural de mudanças que exigem trabalho mais amplo.",
+      "reflexoes": [
+        {
+          "id": "tratamento-01",
+          "titulo": "Classificação das mudanças",
+          "pergunta": "Distinguimos mudanças pequenas, incrementais e transformações que exigem nova elaboração da arquitetura?",
+          "apoio": "O tratamento deve ser proporcional ao impacto, ao risco e ao alcance da mudança.",
+          "praticas": [
+            {
+              "id": "tratamento-01-p01",
+              "texto": "Definir critérios simples para classificar uma mudança arquitetural."
+            },
+            {
+              "id": "tratamento-01-p02",
+              "texto": "Analisar um exemplo de ajuste que possa ser tratado por manutenção."
+            },
+            {
+              "id": "tratamento-01-p03",
+              "texto": "Registrar um caso que exija revisar partes da arquitetura desejada."
+            },
+            {
+              "id": "tratamento-01-p04",
+              "texto": "Encaminhar mudanças de maior alcance à instância decisória adequada."
+            }
+          ]
+        },
+        {
+          "id": "tratamento-02",
+          "titulo": "Novo ciclo do ADM",
+          "pergunta": "Reconhecemos quando uma mudança deve dar origem a uma nova demanda de trabalho de arquitetura?",
+          "apoio": "Mudanças significativas podem exigir uma nova Requisição de Trabalho de Arquitetura e outro ciclo do ADM.",
+          "praticas": [
+            {
+              "id": "tratamento-02-p01",
+              "texto": "Identificar uma alteração estratégica que exija rever a arquitetura."
+            },
+            {
+              "id": "tratamento-02-p02",
+              "texto": "Registrar a justificativa para iniciar um novo ciclo de trabalho."
+            },
+            {
+              "id": "tratamento-02-p03",
+              "texto": "Delimitar preliminarmente o escopo afetado pela mudança."
+            },
+            {
+              "id": "tratamento-02-p04",
+              "texto": "Encaminhar uma nova requisição aos responsáveis pela capacidade de arquitetura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atualizacao",
+      "titulo": "Manutenção da arquitetura",
+      "icone": "▣",
+      "descricao": "Nossos modelos acompanham a realidade que muda?",
+      "introducao": "Vamos manter informações e decisões úteis ao longo de todo o ciclo de vida da arquitetura.",
+      "introducaoReflexoes": "Vamos manter informações e decisões úteis ao longo de todo o ciclo de vida da arquitetura.",
+      "reflexoes": [
+        {
+          "id": "atualizacao-01",
+          "titulo": "Atualização dos modelos",
+          "pergunta": "Atualizamos os modelos e registros quando mudanças relevantes são aprovadas ou realizadas?",
+          "apoio": "Uma arquitetura confiável exige que o repositório reflita estados e decisões vigentes.",
+          "praticas": [
+            {
+              "id": "atualizacao-01-p01",
+              "texto": "Atualizar um modelo afetado por uma mudança aprovada."
+            },
+            {
+              "id": "atualizacao-01-p02",
+              "texto": "Registrar o motivo de uma alteração em artefato importante."
+            },
+            {
+              "id": "atualizacao-01-p03",
+              "texto": "Verificar se relações com outros modelos também precisam de revisão."
+            },
+            {
+              "id": "atualizacao-01-p04",
+              "texto": "Identificar o responsável por manter um conjunto de informações de arquitetura."
+            }
+          ]
+        },
+        {
+          "id": "atualizacao-02",
+          "titulo": "Princípios e padrões afetados",
+          "pergunta": "Avaliamos se mudanças do contexto exigem rever orientações arquiteturais existentes?",
+          "apoio": "Novas condições podem alterar a adequação de princípios, padrões e decisões anteriores.",
+          "praticas": [
+            {
+              "id": "atualizacao-02-p01",
+              "texto": "Identificar uma decisão que conflite com uma orientação atual."
+            },
+            {
+              "id": "atualizacao-02-p02",
+              "texto": "Registrar a necessidade de revisar um padrão desatualizado."
+            },
+            {
+              "id": "atualizacao-02-p03",
+              "texto": "Submeter uma alteração de princípio ou padrão à governança adequada."
+            },
+            {
+              "id": "atualizacao-02-p04",
+              "texto": "Comunicar orientações revisadas às equipes envolvidas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aprendizado",
+      "titulo": "Aprendizado e melhoria contínua",
+      "icone": "↗",
+      "descricao": "Usamos a experiência para melhorar os próximos ciclos?",
+      "introducao": "Vamos transformar observações e mudanças em insumos para a prática futura.",
+      "introducaoReflexoes": "Vamos transformar observações e mudanças em insumos para a prática futura.",
+      "reflexoes": [
+        {
+          "id": "aprendizado-01",
+          "titulo": "Lições aprendidas",
+          "pergunta": "Registramos aprendizados que possam orientar futuras decisões de arquitetura?",
+          "apoio": "Uma experiência só se torna conhecimento reutilizável quando pode ser consultada e aplicada.",
+          "praticas": [
+            {
+              "id": "aprendizado-01-p01",
+              "texto": "Registrar uma decisão que gerou um resultado diferente do previsto."
+            },
+            {
+              "id": "aprendizado-01-p02",
+              "texto": "Identificar uma prática arquitetural que ajudou a evitar um problema."
+            },
+            {
+              "id": "aprendizado-01-p03",
+              "texto": "Compartilhar um aprendizado em uma reunião da equipe."
+            },
+            {
+              "id": "aprendizado-01-p04",
+              "texto": "Relacionar a lição aprendida a um ajuste de método ou de orientação."
+            }
+          ]
+        },
+        {
+          "id": "aprendizado-02",
+          "titulo": "Melhoria do processo de mudança",
+          "pergunta": "Avaliamos se nosso processo de gestão de mudanças arquiteturais continua adequado?",
+          "apoio": "A própria forma de acompanhar mudanças pode amadurecer com a experiência.",
+          "praticas": [
+            {
+              "id": "aprendizado-02-p01",
+              "texto": "Identificar uma etapa do tratamento de mudanças que gere espera desnecessária."
+            },
+            {
+              "id": "aprendizado-02-p02",
+              "texto": "Registrar uma dificuldade recorrente na avaliação de impacto."
+            },
+            {
+              "id": "aprendizado-02-p03",
+              "texto": "Propor um ajuste pequeno no registro ou na classificação das solicitações."
+            },
+            {
+              "id": "aprendizado-02-p04",
+              "texto": "Verificar se o ajuste facilitou o tratamento de uma mudança posterior."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

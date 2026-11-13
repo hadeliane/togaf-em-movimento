@@ -1,0 +1,301 @@
+{
+  "id": "fase-f",
+  "titulo": "Fase F: Planejamento da Migração",
+  "ordem": 6,
+  "sigla": "F",
+  "arquivo": "fase-f.json",
+  "descricao": "Priorize as mudanças e organize o caminho de migração.",
+  "introducao": "Transforme o roteiro inicial em um plano viável, alinhado às prioridades da organização. Qual aspecto do planejamento pode ser aprimorado para facilitar a realização da arquitetura desejada?",
+  "assuntos": [
+    {
+      "id": "priorizacao",
+      "titulo": "Priorização das iniciativas",
+      "icone": "◎",
+      "descricao": "Temos critérios para decidir o que vem primeiro?",
+      "introducao": "Vamos tornar as prioridades visíveis e justificáveis, considerando o valor e as limitações da organização.",
+      "introducaoReflexoes": "Vamos tornar as prioridades visíveis e justificáveis, considerando o valor e as limitações da organização.",
+      "reflexoes": [
+        {
+          "id": "priorizacao-01",
+          "titulo": "Critérios de prioridade",
+          "pergunta": "Priorizamos os pacotes de trabalho com critérios claros e compartilhados?",
+          "apoio": "Valor, urgência, riscos, dependências e recursos podem influenciar a ordem de realização.",
+          "praticas": [
+            {
+              "id": "priorizacao-01-p01",
+              "texto": "Registrar os critérios utilizados para comparar dois pacotes de trabalho."
+            },
+            {
+              "id": "priorizacao-01-p02",
+              "texto": "Relacionar a prioridade de um pacote a um objetivo de negócio."
+            },
+            {
+              "id": "priorizacao-01-p03",
+              "texto": "Identificar uma restrição que justifique antecipar ou adiar uma iniciativa."
+            },
+            {
+              "id": "priorizacao-01-p04",
+              "texto": "Validar as prioridades com os responsáveis pelo portfólio ou pelo negócio."
+            }
+          ]
+        },
+        {
+          "id": "priorizacao-02",
+          "titulo": "Escolhas e compromissos",
+          "pergunta": "Conseguimos explicar por que algumas mudanças serão realizadas antes de outras?",
+          "apoio": "A priorização envolve escolhas que precisam ser compreendidas pelos interessados.",
+          "praticas": [
+            {
+              "id": "priorizacao-02-p01",
+              "texto": "Registrar a justificativa da posição de um pacote no roteiro."
+            },
+            {
+              "id": "priorizacao-02-p02",
+              "texto": "Identificar um benefício que será adiado por causa de uma escolha."
+            },
+            {
+              "id": "priorizacao-02-p03",
+              "texto": "Comunicar uma decisão de prioridade às equipes afetadas."
+            },
+            {
+              "id": "priorizacao-02-p04",
+              "texto": "Revisar uma prioridade quando houver mudança significativa de contexto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sequenciamento",
+      "titulo": "Sequenciamento e dependências",
+      "icone": "⇄",
+      "descricao": "A sequência planejada respeita o que precisa acontecer antes?",
+      "introducao": "Vamos observar os vínculos entre iniciativas, estados de transição e entregas.",
+      "introducaoReflexoes": "Vamos observar os vínculos entre iniciativas, estados de transição e entregas.",
+      "reflexoes": [
+        {
+          "id": "sequenciamento-01",
+          "titulo": "Dependências entre pacotes",
+          "pergunta": "Representamos as dependências que influenciam a ordem de execução?",
+          "apoio": "Dependências pouco visíveis podem comprometer uma entrega mesmo quando cada projeto está bem planejado.",
+          "praticas": [
+            {
+              "id": "sequenciamento-01-p01",
+              "texto": "Registrar uma dependência de entrega entre dois pacotes de trabalho."
+            },
+            {
+              "id": "sequenciamento-01-p02",
+              "texto": "Distinguir uma dependência técnica de uma dependência de negócio."
+            },
+            {
+              "id": "sequenciamento-01-p03",
+              "texto": "Identificar um marco que libere a execução de outro pacote."
+            },
+            {
+              "id": "sequenciamento-01-p04",
+              "texto": "Validar o encadeamento com responsáveis por projetos relacionados."
+            }
+          ]
+        },
+        {
+          "id": "sequenciamento-02",
+          "titulo": "Marcos e transições",
+          "pergunta": "O planejamento deixa claros os estados intermediários e marcos arquiteturais relevantes?",
+          "apoio": "Não basta marcar datas; precisamos saber o que deve estar funcional em cada etapa significativa.",
+          "praticas": [
+            {
+              "id": "sequenciamento-02-p01",
+              "texto": "Relacionar um marco de migração a uma capacidade ou serviço que será disponibilizado."
+            },
+            {
+              "id": "sequenciamento-02-p02",
+              "texto": "Identificar componentes que precisam coexistir em uma transição."
+            },
+            {
+              "id": "sequenciamento-02-p03",
+              "texto": "Registrar uma condição para avançar ao próximo estado."
+            },
+            {
+              "id": "sequenciamento-02-p04",
+              "texto": "Verificar se as transições são compreensíveis para as áreas envolvidas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plano-migracao",
+      "titulo": "Plano de implementação e migração",
+      "icone": "▣",
+      "descricao": "Temos um plano viável para sair do estado atual?",
+      "introducao": "Vamos verificar se o plano traduz o roteiro arquitetural em uma sequência executável.",
+      "introducaoReflexoes": "Vamos verificar se o plano traduz o roteiro arquitetural em uma sequência executável.",
+      "reflexoes": [
+        {
+          "id": "plano-migracao-01",
+          "titulo": "Viabilidade do plano",
+          "pergunta": "Consideramos recursos, capacidades, prazos e restrições na organização da migração?",
+          "apoio": "O planejamento deve dialogar com quem executará a transformação e com as condições reais disponíveis.",
+          "praticas": [
+            {
+              "id": "plano-migracao-01-p01",
+              "texto": "Identificar um recurso crítico para um pacote de trabalho."
+            },
+            {
+              "id": "plano-migracao-01-p02",
+              "texto": "Registrar uma premissa de prazo que precise de validação."
+            },
+            {
+              "id": "plano-migracao-01-p03",
+              "texto": "Verificar uma restrição operacional que afete a migração."
+            },
+            {
+              "id": "plano-migracao-01-p04",
+              "texto": "Revisar a viabilidade de uma etapa com os responsáveis por sua execução."
+            }
+          ]
+        },
+        {
+          "id": "plano-migracao-02",
+          "titulo": "Plano e roteiro alinhados",
+          "pergunta": "O plano de implementação e migração está coerente com as arquiteturas e com o roteiro aprovado?",
+          "apoio": "As escolhas de execução não devem perder de vista o estado arquitetural desejado.",
+          "praticas": [
+            {
+              "id": "plano-migracao-02-p01",
+              "texto": "Relacionar um pacote planejado aos gaps que ele pretende resolver."
+            },
+            {
+              "id": "plano-migracao-02-p02",
+              "texto": "Verificar se uma etapa do plano atende aos resultados arquiteturais previstos."
+            },
+            {
+              "id": "plano-migracao-02-p03",
+              "texto": "Registrar alterações no plano que afetem a arquitetura."
+            },
+            {
+              "id": "plano-migracao-02-p04",
+              "texto": "Atualizar o roteiro quando o planejamento aprovado alterar as transições."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custos-riscos",
+      "titulo": "Custos, benefícios e riscos",
+      "icone": "◇",
+      "descricao": "As escolhas de migração estão sustentadas por informações suficientes?",
+      "introducao": "Vamos relacionar os caminhos de mudança a impactos que ajudem na tomada de decisão.",
+      "introducaoReflexoes": "Vamos relacionar os caminhos de mudança a impactos que ajudem na tomada de decisão.",
+      "reflexoes": [
+        {
+          "id": "custos-riscos-01",
+          "titulo": "Custos e benefícios",
+          "pergunta": "Consideramos custos e benefícios ao avaliar as opções de migração?",
+          "apoio": "Estimativas proporcionais ao nível da decisão podem revelar alternativas mais viáveis.",
+          "praticas": [
+            {
+              "id": "custos-riscos-01-p01",
+              "texto": "Registrar uma estimativa disponível de esforço ou custo de um pacote."
+            },
+            {
+              "id": "custos-riscos-01-p02",
+              "texto": "Relacionar a entrega de um pacote a um benefício esperado."
+            },
+            {
+              "id": "custos-riscos-01-p03",
+              "texto": "Identificar um custo de transição que ainda não tenha sido considerado."
+            },
+            {
+              "id": "custos-riscos-01-p04",
+              "texto": "Documentar uma premissa importante associada à estimativa."
+            }
+          ]
+        },
+        {
+          "id": "custos-riscos-02",
+          "titulo": "Riscos do planejamento",
+          "pergunta": "Identificamos os riscos que podem afetar a sequência e os resultados da migração?",
+          "apoio": "Planejar também significa compreender incertezas de execução e suas consequências.",
+          "praticas": [
+            {
+              "id": "custos-riscos-02-p01",
+              "texto": "Registrar um risco que possa atrasar uma transição crítica."
+            },
+            {
+              "id": "custos-riscos-02-p02",
+              "texto": "Identificar uma alternativa para reduzir o impacto desse risco."
+            },
+            {
+              "id": "custos-riscos-02-p03",
+              "texto": "Atribuir um responsável pelo acompanhamento de um risco relevante."
+            },
+            {
+              "id": "custos-riscos-02-p04",
+              "texto": "Revisar o risco quando uma dependência ou prazo mudar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alinhamento-portfolio",
+      "titulo": "Alinhamento com portfólio e decisão",
+      "icone": "✣",
+      "descricao": "O plano arquitetural conversa com os investimentos e projetos?",
+      "introducao": "Vamos aproximar o planejamento da arquitetura das decisões de financiamento e execução da organização.",
+      "introducaoReflexoes": "Vamos aproximar o planejamento da arquitetura das decisões de financiamento e execução da organização.",
+      "reflexoes": [
+        {
+          "id": "alinhamento-portfolio-01",
+          "titulo": "Integração com o portfólio",
+          "pergunta": "Conseguimos relacionar os pacotes de trabalho aos projetos, programas e investimentos existentes?",
+          "apoio": "O plano de migração precisa conversar com os mecanismos reais de planejamento e execução.",
+          "praticas": [
+            {
+              "id": "alinhamento-portfolio-01-p01",
+              "texto": "Associar um pacote de trabalho a um projeto ou programa existente."
+            },
+            {
+              "id": "alinhamento-portfolio-01-p02",
+              "texto": "Identificar um gap ainda sem iniciativa de implementação prevista."
+            },
+            {
+              "id": "alinhamento-portfolio-01-p03",
+              "texto": "Comparar um marco arquitetural com o planejamento do portfólio."
+            },
+            {
+              "id": "alinhamento-portfolio-01-p04",
+              "texto": "Alinhar uma dependência importante com os responsáveis pelo portfólio."
+            }
+          ]
+        },
+        {
+          "id": "alinhamento-portfolio-02",
+          "titulo": "Aprovação do caminho",
+          "pergunta": "As decisões necessárias para avançar com a migração estão claras e encaminhadas?",
+          "apoio": "A arquitetura apoia a decisão; a autorização de investimentos segue os mecanismos da organização.",
+          "praticas": [
+            {
+              "id": "alinhamento-portfolio-02-p01",
+              "texto": "Identificar quem precisa avaliar o plano de migração."
+            },
+            {
+              "id": "alinhamento-portfolio-02-p02",
+              "texto": "Registrar uma decisão pendente que possa impedir o avanço."
+            },
+            {
+              "id": "alinhamento-portfolio-02-p03",
+              "texto": "Apresentar o principal trade-off de duas opções de sequenciamento."
+            },
+            {
+              "id": "alinhamento-portfolio-02-p04",
+              "texto": "Comunicar o plano aprovado às equipes que precisam utilizá-lo."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

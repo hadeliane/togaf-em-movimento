@@ -1,0 +1,407 @@
+{
+  "id": "fase-b",
+  "titulo": "Fase B: Arquitetura de Negócio",
+  "ordem": 2,
+  "sigla": "B",
+  "arquivo": "fase-b.json",
+  "descricao": "Compreenda o negócio e identifique o que precisa mudar.",
+  "introducao": "Olhe para o funcionamento da organização, suas capacidades e a forma como entrega valor. Em qual aspecto a arquitetura de negócio pode ajudar você a fazer uma análise melhor?",
+  "assuntos": [
+    {
+      "id": "direcionamento",
+      "titulo": "Direcionamento do negócio",
+      "icone": "◎",
+      "descricao": "Nossa arquitetura acompanha o que o negócio pretende alcançar?",
+      "introducao": "Vamos conectar o trabalho de arquitetura ao direcionamento do negócio. Onde podemos tornar essa relação mais clara?",
+      "introducaoReflexoes": "Vamos conectar o trabalho de arquitetura ao direcionamento do negócio. Onde podemos tornar essa relação mais clara?",
+      "reflexoes": [
+        {
+          "id": "direcionamento-01",
+          "titulo": "Objetivos e resultados",
+          "pergunta": "Conseguimos relacionar a arquitetura de negócio aos objetivos e resultados esperados pela organização?",
+          "apoio": "A arquitetura de negócio ajuda quando mostra por que uma estrutura ou uma mudança é necessária.",
+          "praticas": [
+            {
+              "id": "direcionamento-01-p01",
+              "texto": "Relacionar pelo menos um objetivo de negócio às capacidades afetadas por uma iniciativa."
+            },
+            {
+              "id": "direcionamento-01-p02",
+              "texto": "Registrar o resultado de negócio que uma mudança deve apoiar."
+            },
+            {
+              "id": "direcionamento-01-p03",
+              "texto": "Confirmar com uma área de negócio se o objetivo interpretado está correto."
+            },
+            {
+              "id": "direcionamento-01-p04",
+              "texto": "Explicitar em um modelo ou quadro a ligação entre objetivo, capacidade e mudança."
+            }
+          ]
+        },
+        {
+          "id": "direcionamento-02",
+          "titulo": "Direcionadores e restrições",
+          "pergunta": "Consideramos os fatores que impulsionam ou limitam a evolução do negócio?",
+          "apoio": "Mudanças regulatórias, estratégicas e operacionais podem alterar as escolhas de arquitetura.",
+          "praticas": [
+            {
+              "id": "direcionamento-02-p01",
+              "texto": "Identificar os principais direcionadores de negócio de uma iniciativa em andamento."
+            },
+            {
+              "id": "direcionamento-02-p02",
+              "texto": "Registrar uma restrição de negócio que influencie a arquitetura desejada."
+            },
+            {
+              "id": "direcionamento-02-p03",
+              "texto": "Validar com os interessados uma premissa importante sobre o funcionamento do negócio."
+            },
+            {
+              "id": "direcionamento-02-p04",
+              "texto": "Revisitar direcionadores e restrições quando houver mudança de contexto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capacidades",
+      "titulo": "Capacidades de negócio",
+      "icone": "◉",
+      "descricao": "Sabemos quais capacidades precisam ser fortalecidas?",
+      "introducao": "Vamos olhar as capacidades que a organização precisa desenvolver ou melhorar. Qual aspecto merece atenção?",
+      "introducaoReflexoes": "Vamos olhar as capacidades que a organização precisa desenvolver ou melhorar. Qual aspecto merece atenção?",
+      "reflexoes": [
+        {
+          "id": "capacidades-01",
+          "titulo": "Mapa de capacidades",
+          "pergunta": "Conseguimos identificar as principais capacidades de negócio, sem confundi-las com áreas ou sistemas?",
+          "apoio": "Um mapa de capacidades ajuda a enxergar o que a organização precisa ser capaz de fazer.",
+          "praticas": [
+            {
+              "id": "capacidades-01-p01",
+              "texto": "Identificar as capacidades envolvidas em uma iniciativa real."
+            },
+            {
+              "id": "capacidades-01-p02",
+              "texto": "Diferenciar, em um exemplo, capacidade de negócio de processo e unidade organizacional."
+            },
+            {
+              "id": "capacidades-01-p03",
+              "texto": "Registrar uma descrição curta e consistente para uma capacidade relevante."
+            },
+            {
+              "id": "capacidades-01-p04",
+              "texto": "Reutilizar capacidades já mapeadas antes de criar novas definições."
+            }
+          ]
+        },
+        {
+          "id": "capacidades-02",
+          "titulo": "Avaliação de capacidades",
+          "pergunta": "Sabemos quais capacidades precisam evoluir para atender aos objetivos de negócio?",
+          "apoio": "Nem toda capacidade precisa da mesma atenção; a análise deve considerar importância e condição atual.",
+          "praticas": [
+            {
+              "id": "capacidades-02-p01",
+              "texto": "Escolher uma capacidade crítica e registrar sua situação atual."
+            },
+            {
+              "id": "capacidades-02-p02",
+              "texto": "Comparar a situação atual com a necessidade futura dessa capacidade."
+            },
+            {
+              "id": "capacidades-02-p03",
+              "texto": "Conferir a avaliação com representantes do negócio."
+            },
+            {
+              "id": "capacidades-02-p04",
+              "texto": "Destacar uma lacuna de capacidade que mereça investigação na arquitetura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valor",
+      "titulo": "Entrega de valor",
+      "icone": "◇",
+      "descricao": "Entendemos como o negócio entrega valor a quem atende?",
+      "introducao": "Vamos observar a entrega de valor de ponta a ponta, além das divisões entre áreas.",
+      "introducaoReflexoes": "Vamos observar a entrega de valor de ponta a ponta, além das divisões entre áreas.",
+      "reflexoes": [
+        {
+          "id": "valor-01",
+          "titulo": "Fluxos de valor",
+          "pergunta": "Conseguimos enxergar as etapas pelas quais o negócio entrega valor a um público interessado?",
+          "apoio": "Um fluxo de valor mostra o caminho até um resultado de valor, não apenas atividades isoladas.",
+          "praticas": [
+            {
+              "id": "valor-01-p01",
+              "texto": "Selecionar uma entrega de valor e identificar seu público beneficiário."
+            },
+            {
+              "id": "valor-01-p02",
+              "texto": "Descrever as principais etapas do fluxo de valor em linguagem de negócio."
+            },
+            {
+              "id": "valor-01-p03",
+              "texto": "Identificar uma passagem entre áreas que afete a entrega de valor."
+            },
+            {
+              "id": "valor-01-p04",
+              "texto": "Relacionar uma etapa do fluxo às capacidades que a sustentam."
+            }
+          ]
+        },
+        {
+          "id": "valor-02",
+          "titulo": "Problemas na entrega de valor",
+          "pergunta": "Conseguimos identificar onde a entrega de valor enfrenta dificuldades ou perde eficiência?",
+          "apoio": "A arquitetura pode revelar problemas que não aparecem quando cada área olha só para sua parte.",
+          "praticas": [
+            {
+              "id": "valor-02-p01",
+              "texto": "Registrar um ponto de espera ou retrabalho em um fluxo de valor."
+            },
+            {
+              "id": "valor-02-p02",
+              "texto": "Identificar as capacidades envolvidas nesse ponto de dificuldade."
+            },
+            {
+              "id": "valor-02-p03",
+              "texto": "Confirmar com usuários ou áreas envolvidas se o problema ocorre como descrito."
+            },
+            {
+              "id": "valor-02-p04",
+              "texto": "Anotar uma oportunidade de melhoria sem antecipar a escolha da solução."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processos-servicos",
+      "titulo": "Processos e serviços de negócio",
+      "icone": "⇄",
+      "descricao": "Compreendemos como o trabalho acontece e quais serviços são entregues?",
+      "introducao": "Vamos explorar processos e serviços de negócio com o nível de detalhe necessário para tomar decisões.",
+      "introducaoReflexoes": "Vamos explorar processos e serviços de negócio com o nível de detalhe necessário para tomar decisões.",
+      "reflexoes": [
+        {
+          "id": "processos-servicos-01",
+          "titulo": "Processos de negócio",
+          "pergunta": "Temos uma visão confiável dos processos envolvidos na iniciativa?",
+          "apoio": "Entender o fluxo real de trabalho ajuda a identificar dependências e gaps relevantes.",
+          "praticas": [
+            {
+              "id": "processos-servicos-01-p01",
+              "texto": "Identificar o início, o fim e o resultado de um processo relevante."
+            },
+            {
+              "id": "processos-servicos-01-p02",
+              "texto": "Conversar com quem executa o processo para confirmar como ele funciona hoje."
+            },
+            {
+              "id": "processos-servicos-01-p03",
+              "texto": "Registrar uma dependência entre processos ou entre áreas."
+            },
+            {
+              "id": "processos-servicos-01-p04",
+              "texto": "Representar apenas o detalhe do processo necessário à análise arquitetural."
+            }
+          ]
+        },
+        {
+          "id": "processos-servicos-02",
+          "titulo": "Serviços de negócio",
+          "pergunta": "Está claro quais serviços o negócio oferece e como esses serviços dependem dos processos e capacidades?",
+          "apoio": "Serviços, processos e capacidades não são a mesma coisa, mas precisam fazer sentido em conjunto.",
+          "praticas": [
+            {
+              "id": "processos-servicos-02-p01",
+              "texto": "Descrever um serviço de negócio pelo valor que entrega a seu consumidor."
+            },
+            {
+              "id": "processos-servicos-02-p02",
+              "texto": "Identificar os processos que sustentam esse serviço."
+            },
+            {
+              "id": "processos-servicos-02-p03",
+              "texto": "Relacionar o serviço às capacidades que possibilitam sua entrega."
+            },
+            {
+              "id": "processos-servicos-02-p04",
+              "texto": "Verificar se a descrição do serviço é compreendida por pessoas de negócio."
+            }
+          ]
+        },
+        {
+          "id": "processos-servicos-03",
+          "titulo": "Papéis e responsabilidades no negócio",
+          "pergunta": "Sabemos quais atores e papéis participam das atividades mais importantes?",
+          "apoio": "A definição de responsabilidades de negócio ajuda a compreender como o trabalho atravessa a organização.",
+          "praticas": [
+            {
+              "id": "processos-servicos-03-p01",
+              "texto": "Identificar os papéis envolvidos em um processo ou serviço prioritário."
+            },
+            {
+              "id": "processos-servicos-03-p02",
+              "texto": "Registrar a responsabilidade por uma atividade ou decisão relevante."
+            },
+            {
+              "id": "processos-servicos-03-p03",
+              "texto": "Verificar interfaces entre unidades organizacionais relacionadas à entrega."
+            },
+            {
+              "id": "processos-servicos-03-p04",
+              "texto": "Confirmar papéis e responsabilidades com representantes das áreas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atual-futuro",
+      "titulo": "Arquitetura atual e desejada",
+      "icone": "▣",
+      "descricao": "Sabemos como o negócio funciona hoje e como deve funcionar?",
+      "introducao": "Vamos comparar a situação atual e a desejada, sem produzir modelos só por obrigação.",
+      "introducaoReflexoes": "Vamos comparar a situação atual e a desejada, sem produzir modelos só por obrigação.",
+      "reflexoes": [
+        {
+          "id": "atual-futuro-01",
+          "titulo": "Situação atual",
+          "pergunta": "Representamos a arquitetura de negócio atual no detalhe necessário para apoiar a mudança?",
+          "apoio": "O ponto de partida deve refletir a realidade, não apenas o procedimento previsto no papel.",
+          "praticas": [
+            {
+              "id": "atual-futuro-01-p01",
+              "texto": "Selecionar os elementos de negócio relevantes ao escopo da iniciativa."
+            },
+            {
+              "id": "atual-futuro-01-p02",
+              "texto": "Validar um modelo da situação atual com quem conhece a operação."
+            },
+            {
+              "id": "atual-futuro-01-p03",
+              "texto": "Registrar uma exceção ou variação importante no funcionamento atual."
+            },
+            {
+              "id": "atual-futuro-01-p04",
+              "texto": "Evitar detalhar partes do negócio que não contribuem para a decisão."
+            }
+          ]
+        },
+        {
+          "id": "atual-futuro-02",
+          "titulo": "Situação desejada",
+          "pergunta": "Conseguimos descrever como o negócio deve operar para alcançar os resultados esperados?",
+          "apoio": "A arquitetura desejada precisa expressar mudanças de negócio, não apenas uma nova solução tecnológica.",
+          "praticas": [
+            {
+              "id": "atual-futuro-02-p01",
+              "texto": "Descrever uma mudança desejada em processo, serviço ou capacidade de negócio."
+            },
+            {
+              "id": "atual-futuro-02-p02",
+              "texto": "Relacionar a mudança desejada a um objetivo de negócio."
+            },
+            {
+              "id": "atual-futuro-02-p03",
+              "texto": "Representar as principais relações entre elementos do negócio futuro."
+            },
+            {
+              "id": "atual-futuro-02-p04",
+              "texto": "Validar a visão desejada com os interessados antes do detalhamento técnico."
+            }
+          ]
+        },
+        {
+          "id": "atual-futuro-03",
+          "titulo": "Análise de gaps",
+          "pergunta": "Identificamos de forma explícita as diferenças relevantes entre a situação atual e a desejada?",
+          "apoio": "Os gaps tornam visível o que precisa ser introduzido, alterado ou eliminado.",
+          "praticas": [
+            {
+              "id": "atual-futuro-03-p01",
+              "texto": "Comparar um elemento da arquitetura atual com seu correspondente desejado."
+            },
+            {
+              "id": "atual-futuro-03-p02",
+              "texto": "Registrar um gap concreto e sua justificativa de negócio."
+            },
+            {
+              "id": "atual-futuro-03-p03",
+              "texto": "Distinguir um gap de negócio de uma solução proposta para resolvê-lo."
+            },
+            {
+              "id": "atual-futuro-03-p04",
+              "texto": "Encaminhar gaps relevantes para avaliação conjunta nas fases seguintes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integracao",
+      "titulo": "Conexões com outros domínios",
+      "icone": "✣",
+      "descricao": "Nossas decisões de negócio orientam as demais arquiteturas?",
+      "introducao": "Vamos garantir que dados, aplicações e tecnologia respondam às necessidades do negócio.",
+      "introducaoReflexoes": "Vamos garantir que dados, aplicações e tecnologia respondam às necessidades do negócio.",
+      "reflexoes": [
+        {
+          "id": "integracao-01",
+          "titulo": "Necessidades para outros domínios",
+          "pergunta": "Conseguimos comunicar o que a arquitetura de negócio exige das arquiteturas de dados, aplicações e tecnologia?",
+          "apoio": "Um requisito do negócio pode gerar necessidades em vários domínios sem determinar antecipadamente a solução.",
+          "praticas": [
+            {
+              "id": "integracao-01-p01",
+              "texto": "Identificar uma necessidade de informação derivada de um processo de negócio."
+            },
+            {
+              "id": "integracao-01-p02",
+              "texto": "Descrever uma necessidade de apoio por aplicações sem indicar previamente um produto."
+            },
+            {
+              "id": "integracao-01-p03",
+              "texto": "Sinalizar uma restrição de negócio que afete decisões tecnológicas."
+            },
+            {
+              "id": "integracao-01-p04",
+              "texto": "Registrar a origem de uma necessidade para facilitar sua rastreabilidade."
+            }
+          ]
+        },
+        {
+          "id": "integracao-02",
+          "titulo": "Coerência entre modelos",
+          "pergunta": "Conseguimos relacionar nossos modelos de negócio aos demais modelos de arquitetura?",
+          "apoio": "Relações explícitas ajudam a evitar decisões isoladas entre domínios.",
+          "praticas": [
+            {
+              "id": "integracao-02-p01",
+              "texto": "Relacionar um processo de negócio a um serviço de aplicação que o apoia."
+            },
+            {
+              "id": "integracao-02-p02",
+              "texto": "Verificar se nomes e conceitos de negócio são consistentes entre modelos."
+            },
+            {
+              "id": "integracao-02-p03",
+              "texto": "Identificar uma relação importante ainda não representada."
+            },
+            {
+              "id": "integracao-02-p04",
+              "texto": "Revisar uma decisão de arquitetura com profissionais de outro domínio."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

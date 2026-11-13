@@ -1,0 +1,482 @@
+{
+  "id": "fase-a",
+  "titulo": "Fase A: Visão da Arquitetura",
+  "ordem": 1,
+  "sigla": "A",
+  "arquivo": "fase-a.json",
+  "descricao": "Defina a visão e obtenha apoio para avançar.",
+  "introducao": "Antes de aprofundar os modelos, precisamos compreender por que a mudança é necessária, quem deve participar e aonde queremos chegar. Qual desses aspectos merece sua atenção?",
+  "assuntos": [
+    {
+      "id": "proposito",
+      "titulo": "Propósito da iniciativa",
+      "icone": "◎",
+      "descricao": "Está claro por que este trabalho deve começar?",
+      "introducao": "Vamos olhar para o início do trabalho de arquitetura. O que podemos melhorar na maneira de compreender a demanda e alinhar suas expectativas?",
+      "reflexoes": [
+        {
+          "id": "proposito-01",
+          "titulo": "Demanda de arquitetura",
+          "pergunta": "Antes de começar, compreendemos o problema ou a oportunidade que motivou a demanda de arquitetura?",
+          "apoio": "Uma solução solicitada nem sempre expressa toda a necessidade de negócio. Vale confirmar o que realmente precisa mudar.",
+          "praticas": [
+            {
+              "id": "proposito-01-p01",
+              "texto": "Registrar em uma frase o problema ou a oportunidade que motivou a demanda."
+            },
+            {
+              "id": "proposito-01-p02",
+              "texto": "Conversar com a área solicitante para confirmar o entendimento da necessidade."
+            },
+            {
+              "id": "proposito-01-p03",
+              "texto": "Distinguir a necessidade de negócio da solução inicialmente sugerida."
+            },
+            {
+              "id": "proposito-01-p04",
+              "texto": "Identificar o resultado que a área solicitante espera alcançar."
+            }
+          ]
+        },
+        {
+          "id": "proposito-02",
+          "titulo": "Objetivos e direcionadores",
+          "pergunta": "Conseguimos relacionar a iniciativa de arquitetura aos objetivos e direcionadores da organização?",
+          "apoio": "Essa ligação ajuda a justificar o trabalho, orientar escolhas e manter o foco no que importa.",
+          "praticas": [
+            {
+              "id": "proposito-02-p01",
+              "texto": "Relacionar a demanda a pelo menos um objetivo de negócio."
+            },
+            {
+              "id": "proposito-02-p02",
+              "texto": "Registrar os principais direcionadores que motivam a iniciativa."
+            },
+            {
+              "id": "proposito-02-p03",
+              "texto": "Verificar se as prioridades do trabalho refletem os objetivos identificados."
+            },
+            {
+              "id": "proposito-02-p04",
+              "texto": "Confirmar com a área patrocinadora os resultados de negócio pretendidos."
+            }
+          ]
+        },
+        {
+          "id": "proposito-03",
+          "titulo": "Patrocínio da iniciativa",
+          "pergunta": "Contamos com o apoio necessário para iniciar e conduzir o trabalho de arquitetura?",
+          "apoio": "O apoio das pessoas responsáveis facilita o acesso às áreas, a tomada de decisões e o compromisso com os resultados.",
+          "praticas": [
+            {
+              "id": "proposito-03-p01",
+              "texto": "Identificar a pessoa ou área que patrocina a iniciativa."
+            },
+            {
+              "id": "proposito-03-p02",
+              "texto": "Combinar com o patrocinador o objetivo e os resultados esperados do trabalho."
+            },
+            {
+              "id": "proposito-03-p03",
+              "texto": "Definir um interlocutor para apoiar a articulação com as áreas envolvidas."
+            },
+            {
+              "id": "proposito-03-p04",
+              "texto": "Registrar a concordância inicial sobre a realização do trabalho de arquitetura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "titulo": "Stakeholders",
+      "icone": "◉",
+      "descricao": "Estamos envolvendo as pessoas certas?",
+      "introducao": "Vamos olhar para as pessoas envolvidas e afetadas pela mudança. Qual dessas questões pode melhorar nosso diálogo com elas?",
+      "reflexoes": [
+        {
+          "id": "stakeholders-01",
+          "titulo": "Identificação dos stakeholders",
+          "pergunta": "Identificamos quem influencia, decide ou é impactado pela iniciativa de arquitetura?",
+          "apoio": "Uma visão restrita aos participantes mais próximos pode deixar de fora interesses importantes.",
+          "praticas": [
+            {
+              "id": "stakeholders-01-p01",
+              "texto": "Criar uma lista inicial das pessoas e áreas interessadas na iniciativa."
+            },
+            {
+              "id": "stakeholders-01-p02",
+              "texto": "Distinguir quem decide, quem participa e quem será afetado pela mudança."
+            },
+            {
+              "id": "stakeholders-01-p03",
+              "texto": "Verificar com a área solicitante se há stakeholders relevantes ainda não considerados."
+            },
+            {
+              "id": "stakeholders-01-p04",
+              "texto": "Registrar o papel de cada stakeholder no trabalho de arquitetura."
+            }
+          ]
+        },
+        {
+          "id": "stakeholders-02",
+          "titulo": "Preocupações e requisitos",
+          "pergunta": "Compreendemos as principais preocupações dos stakeholders antes de definir a visão da arquitetura?",
+          "apoio": "Preocupações diferentes podem revelar requisitos, restrições ou critérios de sucesso que ainda não estavam claros.",
+          "praticas": [
+            {
+              "id": "stakeholders-02-p01",
+              "texto": "Perguntar aos stakeholders quais resultados mais importam para eles."
+            },
+            {
+              "id": "stakeholders-02-p02",
+              "texto": "Registrar as principais preocupações de cada grupo de stakeholders."
+            },
+            {
+              "id": "stakeholders-02-p03",
+              "texto": "Identificar requisitos de negócio iniciais relacionados a essas preocupações."
+            },
+            {
+              "id": "stakeholders-02-p04",
+              "texto": "Confirmar com os envolvidos se as preocupações foram compreendidas corretamente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escopo-principios",
+      "titulo": "Escopo e princípios",
+      "icone": "□",
+      "descricao": "Sabemos o que será considerado e quais orientações devemos respeitar?",
+      "introducao": "Vamos olhar para os limites e as orientações do trabalho. O que poderia nos ajudar a avançar com mais clareza?",
+      "reflexoes": [
+        {
+          "id": "escopo-principios-01",
+          "titulo": "Limites do trabalho",
+          "pergunta": "Está claro o que a iniciativa de arquitetura vai abranger e o que ficará fora?",
+          "apoio": "Os limites podem envolver áreas, capacidades, domínios de arquitetura, nível de detalhe e período considerado.",
+          "praticas": [
+            {
+              "id": "escopo-principios-01-p01",
+              "texto": "Identificar as áreas e capacidades de negócio abrangidas pelo trabalho."
+            },
+            {
+              "id": "escopo-principios-01-p02",
+              "texto": "Definir os domínios de arquitetura que precisam ser analisados nesta iniciativa."
+            },
+            {
+              "id": "escopo-principios-01-p03",
+              "texto": "Registrar explicitamente o que não será tratado neste momento."
+            },
+            {
+              "id": "escopo-principios-01-p04",
+              "texto": "Validar os limites do trabalho com os principais envolvidos."
+            }
+          ]
+        },
+        {
+          "id": "escopo-principios-02",
+          "titulo": "Restrições da iniciativa",
+          "pergunta": "Conhecemos as restrições que precisam ser consideradas desde o início?",
+          "apoio": "Prazos, orçamento, regras e compromissos existentes podem influenciar o escopo e as alternativas viáveis.",
+          "praticas": [
+            {
+              "id": "escopo-principios-02-p01",
+              "texto": "Registrar as principais restrições conhecidas de prazo e recursos."
+            },
+            {
+              "id": "escopo-principios-02-p02",
+              "texto": "Identificar regras ou obrigações que condicionam a iniciativa."
+            },
+            {
+              "id": "escopo-principios-02-p03",
+              "texto": "Verificar dependências de projetos ou decisões já assumidas."
+            },
+            {
+              "id": "escopo-principios-02-p04",
+              "texto": "Revisar o escopo quando uma restrição relevante for identificada."
+            }
+          ]
+        },
+        {
+          "id": "escopo-principios-03",
+          "titulo": "Princípios aplicáveis",
+          "pergunta": "Estamos considerando os princípios de arquitetura relevantes para orientar esta iniciativa?",
+          "apoio": "Na Fase A, o foco é confirmar e aplicar os princípios pertinentes ao trabalho, não começar necessariamente sua definição do zero.",
+          "praticas": [
+            {
+              "id": "escopo-principios-03-p01",
+              "texto": "Consultar os princípios de arquitetura existentes antes de propor a visão."
+            },
+            {
+              "id": "escopo-principios-03-p02",
+              "texto": "Selecionar os princípios mais relevantes para a iniciativa."
+            },
+            {
+              "id": "escopo-principios-03-p03",
+              "texto": "Identificar possíveis tensões entre as propostas iniciais e os princípios adotados."
+            },
+            {
+              "id": "escopo-principios-03-p04",
+              "texto": "Registrar como os princípios influenciaram uma decisão de escopo ou direção."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capacidades-prontidao",
+      "titulo": "Capacidades e prontidão",
+      "icone": "◈",
+      "descricao": "A organização tem condições de realizar a mudança?",
+      "introducao": "Vamos olhar para o que precisa ser desenvolvido e para as condições reais de transformação. Onde existe espaço para melhorar nossa análise?",
+      "reflexoes": [
+        {
+          "id": "capacidades-prontidao-01",
+          "titulo": "Capacidades envolvidas",
+          "pergunta": "Identificamos quais capacidades de negócio precisam ser fortalecidas ou desenvolvidas com a mudança?",
+          "apoio": "Olhar para capacidades ajuda a conectar a transformação ao que a organização precisa conseguir fazer, e não apenas aos sistemas que utiliza.",
+          "praticas": [
+            {
+              "id": "capacidades-prontidao-01-p01",
+              "texto": "Listar as principais capacidades de negócio relacionadas à iniciativa."
+            },
+            {
+              "id": "capacidades-prontidao-01-p02",
+              "texto": "Identificar, em alto nível, quais capacidades exigem maior atenção."
+            },
+            {
+              "id": "capacidades-prontidao-01-p03",
+              "texto": "Conversar com as áreas responsáveis sobre dificuldades atuais dessas capacidades."
+            },
+            {
+              "id": "capacidades-prontidao-01-p04",
+              "texto": "Relacionar cada capacidade prioritária ao resultado de negócio esperado."
+            }
+          ]
+        },
+        {
+          "id": "capacidades-prontidao-02",
+          "titulo": "Prontidão para a transformação",
+          "pergunta": "Avaliamos se as áreas envolvidas estão preparadas para a mudança proposta?",
+          "apoio": "A transformação depende também de pessoas, competências, recursos, processos e disposição para mudar.",
+          "praticas": [
+            {
+              "id": "capacidades-prontidao-02-p01",
+              "texto": "Conversar com as áreas envolvidas sobre possíveis dificuldades para adotar a mudança."
+            },
+            {
+              "id": "capacidades-prontidao-02-p02",
+              "texto": "Identificar competências ou recursos que podem limitar a transformação."
+            },
+            {
+              "id": "capacidades-prontidao-02-p03",
+              "texto": "Registrar fatores que favorecem a mudança e fatores que exigem atenção."
+            },
+            {
+              "id": "capacidades-prontidao-02-p04",
+              "texto": "Propor uma ação inicial para tratar um obstáculo importante identificado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visao",
+      "titulo": "Visão da Arquitetura",
+      "icone": "◇",
+      "descricao": "Conseguimos mostrar aonde queremos chegar?",
+      "introducao": "Vamos olhar para a visão que orientará as análises seguintes. Ela ajuda as pessoas a entender a direção proposta?",
+      "reflexoes": [
+        {
+          "id": "visao-01",
+          "titulo": "Visão integrada da mudança",
+          "pergunta": "Conseguimos descrever, em alto nível, como a organização deverá funcionar após a mudança?",
+          "apoio": "A visão pode conectar impactos no negócio, nos dados, nas aplicações e na tecnologia, na medida em que forem relevantes para a iniciativa.",
+          "praticas": [
+            {
+              "id": "visao-01-p01",
+              "texto": "Resumir a situação atual e a situação desejada em poucas frases."
+            },
+            {
+              "id": "visao-01-p02",
+              "texto": "Identificar os principais domínios de arquitetura afetados pela mudança."
+            },
+            {
+              "id": "visao-01-p03",
+              "texto": "Produzir uma representação simples do estado desejado."
+            },
+            {
+              "id": "visao-01-p04",
+              "texto": "Explicitar como a visão proposta contribui para os objetivos da iniciativa."
+            }
+          ]
+        },
+        {
+          "id": "visao-02",
+          "titulo": "Entendimento compartilhado",
+          "pergunta": "Os principais envolvidos compreendem e compartilham a direção proposta pela visão da arquitetura?",
+          "apoio": "Uma visão útil permite discutir a direção da transformação antes de investir em detalhamentos.",
+          "praticas": [
+            {
+              "id": "visao-02-p01",
+              "texto": "Apresentar a visão em linguagem acessível aos stakeholders."
+            },
+            {
+              "id": "visao-02-p02",
+              "texto": "Pedir aos envolvidos que apontem dúvidas ou interpretações diferentes."
+            },
+            {
+              "id": "visao-02-p03",
+              "texto": "Ajustar a representação da visão a partir das contribuições recebidas."
+            },
+            {
+              "id": "visao-02-p04",
+              "texto": "Registrar os pontos de concordância e as questões ainda em aberto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valor-riscos",
+      "titulo": "Valor e riscos",
+      "icone": "↗",
+      "descricao": "Sabemos o que queremos alcançar e o que pode atrapalhar?",
+      "introducao": "Vamos olhar para os resultados esperados e os desafios da transformação. Qual ponto ajudaria a tornar a proposta mais convincente e realista?",
+      "reflexoes": [
+        {
+          "id": "valor-riscos-01",
+          "titulo": "Benefícios esperados",
+          "pergunta": "Conseguimos explicar que valor a arquitetura proposta deverá gerar para a organização?",
+          "apoio": "Benefício é o resultado que se busca alcançar, não apenas uma entrega técnica ou um documento produzido.",
+          "praticas": [
+            {
+              "id": "valor-riscos-01-p01",
+              "texto": "Descrever em uma frase o principal benefício esperado da transformação."
+            },
+            {
+              "id": "valor-riscos-01-p02",
+              "texto": "Relacionar o benefício a um objetivo ou problema de negócio."
+            },
+            {
+              "id": "valor-riscos-01-p03",
+              "texto": "Distinguir os resultados esperados das entregas previstas no trabalho."
+            },
+            {
+              "id": "valor-riscos-01-p04",
+              "texto": "Confirmar com o patrocinador se os benefícios expressam o valor desejado."
+            }
+          ]
+        },
+        {
+          "id": "valor-riscos-02",
+          "titulo": "Indicadores de sucesso",
+          "pergunta": "Definimos como reconhecer se a transformação alcançou os resultados esperados?",
+          "apoio": "Indicadores simples ajudam a tornar a proposta de valor observável e a orientar o acompanhamento posterior.",
+          "praticas": [
+            {
+              "id": "valor-riscos-02-p01",
+              "texto": "Escolher um ou dois indicadores ligados aos benefícios prioritários."
+            },
+            {
+              "id": "valor-riscos-02-p02",
+              "texto": "Registrar, quando disponível, a situação atual desses indicadores."
+            },
+            {
+              "id": "valor-riscos-02-p03",
+              "texto": "Definir qual resultado ou evolução será considerado satisfatório."
+            },
+            {
+              "id": "valor-riscos-02-p04",
+              "texto": "Combinar quem poderá fornecer os dados necessários ao acompanhamento."
+            }
+          ]
+        },
+        {
+          "id": "valor-riscos-03",
+          "titulo": "Riscos da transformação",
+          "pergunta": "Identificamos os principais riscos que podem comprometer a mudança antes de aprofundar o trabalho?",
+          "apoio": "Reconhecer riscos cedo permite ajustar expectativas e preparar respostas proporcionais à iniciativa.",
+          "praticas": [
+            {
+              "id": "valor-riscos-03-p01",
+              "texto": "Registrar os riscos de transformação mais relevantes já conhecidos."
+            },
+            {
+              "id": "valor-riscos-03-p02",
+              "texto": "Discutir com os envolvidos possíveis impactos desses riscos."
+            },
+            {
+              "id": "valor-riscos-03-p03",
+              "texto": "Identificar uma ação de mitigação para um risco prioritário."
+            },
+            {
+              "id": "valor-riscos-03-p04",
+              "texto": "Definir quem acompanhará o risco e quando ele será revisto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acordo",
+      "titulo": "Acordo para o trabalho",
+      "icone": "▤",
+      "descricao": "Está combinado o que será feito e quem autoriza o avanço?",
+      "introducao": "Vamos olhar para o compromisso necessário para desenvolver a arquitetura. O que precisa ficar mais claro antes de avançar?",
+      "reflexoes": [
+        {
+          "id": "acordo-01",
+          "titulo": "Declaração de Trabalho de Arquitetura",
+          "pergunta": "O trabalho proposto está descrito de forma clara o suficiente para orientar sua realização?",
+          "apoio": "A Declaração de Trabalho de Arquitetura consolida o entendimento sobre o que será feito, o escopo, os resultados e os compromissos assumidos.",
+          "praticas": [
+            {
+              "id": "acordo-01-p01",
+              "texto": "Registrar o objetivo e o escopo acordados para o trabalho de arquitetura."
+            },
+            {
+              "id": "acordo-01-p02",
+              "texto": "Identificar os principais entregáveis esperados da iniciativa."
+            },
+            {
+              "id": "acordo-01-p03",
+              "texto": "Definir responsáveis, premissas e marcos gerais para a realização do trabalho."
+            },
+            {
+              "id": "acordo-01-p04",
+              "texto": "Revisar a proposta de trabalho com as áreas que precisarão participar."
+            }
+          ]
+        },
+        {
+          "id": "acordo-02",
+          "titulo": "Aprovação e compromisso",
+          "pergunta": "As pessoas responsáveis concordam com a visão, o escopo e as condições para avançar?",
+          "apoio": "A aprovação ajuda a transformar uma intenção em um trabalho reconhecido, com expectativas e responsabilidades compartilhadas.",
+          "praticas": [
+            {
+              "id": "acordo-02-p01",
+              "texto": "Apresentar a visão e a proposta de trabalho aos responsáveis pela decisão."
+            },
+            {
+              "id": "acordo-02-p02",
+              "texto": "Registrar os ajustes solicitados antes da aprovação."
+            },
+            {
+              "id": "acordo-02-p03",
+              "texto": "Documentar a decisão de aprovação conforme a governança da organização."
+            },
+            {
+              "id": "acordo-02-p04",
+              "texto": "Comunicar aos envolvidos o escopo acordado e os próximos passos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

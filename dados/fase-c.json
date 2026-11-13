@@ -1,0 +1,417 @@
+{
+  "id": "fase-c",
+  "titulo": "Fase C: Arquiteturas de Sistemas de Informação",
+  "ordem": 3,
+  "sigla": "C",
+  "arquivo": "fase-c.json",
+  "descricao": "Estruture dados e aplicações para apoiar o negócio.",
+  "introducao": "Observe como os dados e as aplicações sustentam as capacidades, os processos e os serviços do negócio. Em que ponto precisamos melhorar nossa compreensão ou integração?",
+  "assuntos": [
+    {
+      "id": "dados-essenciais",
+      "titulo": "Dados essenciais ao negócio",
+      "icone": "◎",
+      "descricao": "Conhecemos as informações de que o negócio realmente precisa?",
+      "introducao": "Vamos começar pelas necessidades de informação e pelos dados que dão suporte ao trabalho.",
+      "introducaoReflexoes": "Vamos começar pelas necessidades de informação e pelos dados que dão suporte ao trabalho.",
+      "reflexoes": [
+        {
+          "id": "dados-essenciais-01",
+          "titulo": "Entidades de dados",
+          "pergunta": "Conseguimos identificar os dados de negócio relevantes para os processos e serviços analisados?",
+          "apoio": "Uma visão compartilhada dos dados evita que cada aplicação defina o negócio isoladamente.",
+          "praticas": [
+            {
+              "id": "dados-essenciais-01-p01",
+              "texto": "Identificar as principais entidades de dados de um processo prioritário."
+            },
+            {
+              "id": "dados-essenciais-01-p02",
+              "texto": "Registrar uma definição de negócio para uma entidade de dados importante."
+            },
+            {
+              "id": "dados-essenciais-01-p03",
+              "texto": "Relacionar uma entidade de dados ao processo que a utiliza."
+            },
+            {
+              "id": "dados-essenciais-01-p04",
+              "texto": "Validar a definição com representantes do negócio e da área de dados."
+            }
+          ]
+        },
+        {
+          "id": "dados-essenciais-02",
+          "titulo": "Necessidades de informação",
+          "pergunta": "Conseguimos relacionar as necessidades de informação às decisões e atividades do negócio?",
+          "apoio": "Informação necessária não é sinônimo de relatório ou tela específica.",
+          "praticas": [
+            {
+              "id": "dados-essenciais-02-p01",
+              "texto": "Identificar a informação necessária para uma decisão de negócio."
+            },
+            {
+              "id": "dados-essenciais-02-p02",
+              "texto": "Registrar a origem e o uso de uma informação crítica."
+            },
+            {
+              "id": "dados-essenciais-02-p03",
+              "texto": "Verificar se uma necessidade informacional já é atendida por dados existentes."
+            },
+            {
+              "id": "dados-essenciais-02-p04",
+              "texto": "Evitar definir uma solução de armazenamento antes de compreender a necessidade."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dados-fluxo",
+      "titulo": "Fluxos e compartilhamento de dados",
+      "icone": "⇄",
+      "descricao": "Sabemos por onde os dados circulam e onde surgem dificuldades?",
+      "introducao": "Vamos observar o uso e a movimentação dos dados entre processos, aplicações e áreas.",
+      "introducaoReflexoes": "Vamos observar o uso e a movimentação dos dados entre processos, aplicações e áreas.",
+      "reflexoes": [
+        {
+          "id": "dados-fluxo-01",
+          "titulo": "Origem e circulação",
+          "pergunta": "Sabemos onde os dados relevantes são produzidos, mantidos e consumidos?",
+          "apoio": "Identificar origens e destinos ajuda a perceber dependências e inconsistências.",
+          "praticas": [
+            {
+              "id": "dados-fluxo-01-p01",
+              "texto": "Mapear a origem de um dado crítico para uma iniciativa."
+            },
+            {
+              "id": "dados-fluxo-01-p02",
+              "texto": "Relacionar consumidores de um dado a processos ou aplicações."
+            },
+            {
+              "id": "dados-fluxo-01-p03",
+              "texto": "Registrar um fluxo de dados importante entre duas aplicações."
+            },
+            {
+              "id": "dados-fluxo-01-p04",
+              "texto": "Validar com os responsáveis se a circulação mapeada corresponde à realidade."
+            }
+          ]
+        },
+        {
+          "id": "dados-fluxo-02",
+          "titulo": "Redundância e consistência",
+          "pergunta": "Reconhecemos situações em que dados são duplicados ou apresentam significados divergentes?",
+          "apoio": "O mesmo dado pode existir em vários lugares, com conflitos sobre significado, atualização e referência.",
+          "praticas": [
+            {
+              "id": "dados-fluxo-02-p01",
+              "texto": "Identificar um dado mantido em mais de uma aplicação."
+            },
+            {
+              "id": "dados-fluxo-02-p02",
+              "texto": "Comparar definições distintas usadas para o mesmo conceito de negócio."
+            },
+            {
+              "id": "dados-fluxo-02-p03",
+              "texto": "Localizar uma divergência que cause retrabalho ou decisão incorreta."
+            },
+            {
+              "id": "dados-fluxo-02-p04",
+              "texto": "Registrar uma necessidade de harmonização de dados sem antecipar a tecnologia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dados-qualidade",
+      "titulo": "Qualidade e responsabilidade pelos dados",
+      "icone": "◇",
+      "descricao": "Os dados são confiáveis e possuem responsabilidades claras?",
+      "introducao": "Vamos relacionar qualidade, responsabilidades e restrições relevantes para a arquitetura de dados.",
+      "introducaoReflexoes": "Vamos relacionar qualidade, responsabilidades e restrições relevantes para a arquitetura de dados.",
+      "reflexoes": [
+        {
+          "id": "dados-qualidade-01",
+          "titulo": "Qualidade dos dados",
+          "pergunta": "Consideramos os problemas de qualidade dos dados que afetam processos e decisões?",
+          "apoio": "O nível de qualidade necessário depende do uso do dado e do impacto de erros.",
+          "praticas": [
+            {
+              "id": "dados-qualidade-01-p01",
+              "texto": "Identificar um dado cuja ausência ou erro prejudique uma atividade importante."
+            },
+            {
+              "id": "dados-qualidade-01-p02",
+              "texto": "Registrar um critério de qualidade relevante para esse dado."
+            },
+            {
+              "id": "dados-qualidade-01-p03",
+              "texto": "Observar onde surgem inconsistências na produção ou troca de dados."
+            },
+            {
+              "id": "dados-qualidade-01-p04",
+              "texto": "Alinhar uma necessidade de melhoria com os responsáveis pelo dado."
+            }
+          ]
+        },
+        {
+          "id": "dados-qualidade-02",
+          "titulo": "Responsabilidades e restrições",
+          "pergunta": "Sabemos quem responde pelos dados críticos e quais restrições precisam ser consideradas?",
+          "apoio": "A arquitetura de dados deve considerar responsabilidades e necessidades de proteção, sem substituir a governança especializada.",
+          "praticas": [
+            {
+              "id": "dados-qualidade-02-p01",
+              "texto": "Identificar o responsável de negócio por um conjunto de dados relevante."
+            },
+            {
+              "id": "dados-qualidade-02-p02",
+              "texto": "Registrar uma restrição de acesso ou compartilhamento que afete a arquitetura."
+            },
+            {
+              "id": "dados-qualidade-02-p03",
+              "texto": "Consultar as áreas responsáveis por segurança e privacidade quando necessário."
+            },
+            {
+              "id": "dados-qualidade-02-p04",
+              "texto": "Relacionar uma decisão de arquitetura de dados aos requisitos que a justificam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aplicacoes-servicos",
+      "titulo": "Aplicações e serviços de aplicação",
+      "icone": "▣",
+      "descricao": "Sabemos como as aplicações apoiam o negócio?",
+      "introducao": "Vamos observar as aplicações e os serviços que disponibilizam, sem confundi-los com os processos de negócio.",
+      "introducaoReflexoes": "Vamos observar as aplicações e os serviços que disponibilizam, sem confundi-los com os processos de negócio.",
+      "reflexoes": [
+        {
+          "id": "aplicacoes-servicos-01",
+          "titulo": "Panorama de aplicações",
+          "pergunta": "Conseguimos identificar as aplicações relevantes e suas principais responsabilidades?",
+          "apoio": "O inventário deve ajudar a responder perguntas, não apenas listar nomes de sistemas.",
+          "praticas": [
+            {
+              "id": "aplicacoes-servicos-01-p01",
+              "texto": "Relacionar uma aplicação aos processos de negócio que ela apoia."
+            },
+            {
+              "id": "aplicacoes-servicos-01-p02",
+              "texto": "Registrar a principal responsabilidade funcional de uma aplicação."
+            },
+            {
+              "id": "aplicacoes-servicos-01-p03",
+              "texto": "Identificar o responsável ou referência técnica por uma aplicação relevante."
+            },
+            {
+              "id": "aplicacoes-servicos-01-p04",
+              "texto": "Validar se o panorama de aplicações reflete as soluções efetivamente utilizadas."
+            }
+          ]
+        },
+        {
+          "id": "aplicacoes-servicos-02",
+          "titulo": "Serviços de aplicação",
+          "pergunta": "Distinguimos os serviços oferecidos pelas aplicações dos componentes que os realizam?",
+          "apoio": "Essa distinção facilita discutir funcionalidades e dependências sem depender da solução atual.",
+          "praticas": [
+            {
+              "id": "aplicacoes-servicos-02-p01",
+              "texto": "Identificar um serviço de aplicação utilizado por um processo de negócio."
+            },
+            {
+              "id": "aplicacoes-servicos-02-p02",
+              "texto": "Relacionar o serviço aos componentes de aplicação que o realizam."
+            },
+            {
+              "id": "aplicacoes-servicos-02-p03",
+              "texto": "Descrever o serviço pelo que oferece aos seus consumidores."
+            },
+            {
+              "id": "aplicacoes-servicos-02-p04",
+              "texto": "Verificar se um serviço é utilizado por mais de uma aplicação ou processo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aplicacoes-integracao",
+      "titulo": "Integração entre aplicações",
+      "icone": "✣",
+      "descricao": "Conhecemos as dependências e os pontos de integração?",
+      "introducao": "Vamos entender como as aplicações colaboram para entregar os serviços de negócio.",
+      "introducaoReflexoes": "Vamos entender como as aplicações colaboram para entregar os serviços de negócio.",
+      "reflexoes": [
+        {
+          "id": "aplicacoes-integracao-01",
+          "titulo": "Interfaces e dependências",
+          "pergunta": "Conseguimos identificar as integrações relevantes e seus impactos sobre outras aplicações?",
+          "apoio": "Uma mudança localizada pode afetar serviços e processos que dependem da mesma interface.",
+          "praticas": [
+            {
+              "id": "aplicacoes-integracao-01-p01",
+              "texto": "Mapear uma integração crítica entre duas aplicações."
+            },
+            {
+              "id": "aplicacoes-integracao-01-p02",
+              "texto": "Identificar os serviços ou dados trocados nessa integração."
+            },
+            {
+              "id": "aplicacoes-integracao-01-p03",
+              "texto": "Registrar um consumidor que seria afetado por alteração da interface."
+            },
+            {
+              "id": "aplicacoes-integracao-01-p04",
+              "texto": "Validar a dependência com as equipes responsáveis pelos sistemas."
+            }
+          ]
+        },
+        {
+          "id": "aplicacoes-integracao-02",
+          "titulo": "Redundâncias e lacunas funcionais",
+          "pergunta": "Conseguimos identificar funcionalidades duplicadas ou necessidades não atendidas pelas aplicações?",
+          "apoio": "Conhecer a carteira de aplicações ajuda a discutir consolidação e oportunidades sem decidir soluções cedo demais.",
+          "praticas": [
+            {
+              "id": "aplicacoes-integracao-02-p01",
+              "texto": "Identificar duas aplicações que executem uma mesma função relevante."
+            },
+            {
+              "id": "aplicacoes-integracao-02-p02",
+              "texto": "Registrar uma necessidade de negócio sem apoio aplicacional adequado."
+            },
+            {
+              "id": "aplicacoes-integracao-02-p03",
+              "texto": "Relacionar uma redundância ou lacuna a seu impacto no negócio."
+            },
+            {
+              "id": "aplicacoes-integracao-02-p04",
+              "texto": "Revisar oportunidades de reutilização antes de propor uma nova aplicação."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dados-estado",
+      "titulo": "Evolução da arquitetura de dados",
+      "icone": "↗",
+      "descricao": "Sabemos o que precisa mudar na arquitetura de dados?",
+      "introducao": "Vamos comparar o cenário atual com o desejado nos aspectos que realmente importam.",
+      "introducaoReflexoes": "Vamos comparar o cenário atual com o desejado nos aspectos que realmente importam.",
+      "reflexoes": [
+        {
+          "id": "dados-estado-01",
+          "titulo": "Dados atuais e desejados",
+          "pergunta": "Conseguimos descrever a situação atual e a desejada da arquitetura de dados?",
+          "apoio": "O foco é compreender mudanças nas estruturas, fluxos e responsabilidades necessários ao negócio.",
+          "praticas": [
+            {
+              "id": "dados-estado-01-p01",
+              "texto": "Representar o fluxo atual de um dado importante."
+            },
+            {
+              "id": "dados-estado-01-p02",
+              "texto": "Descrever como esse dado deverá circular ou ser disponibilizado no futuro."
+            },
+            {
+              "id": "dados-estado-01-p03",
+              "texto": "Validar a situação desejada com quem utiliza ou responde pelo dado."
+            },
+            {
+              "id": "dados-estado-01-p04",
+              "texto": "Registrar uma premissa de dados que precise ser confirmada."
+            }
+          ]
+        },
+        {
+          "id": "dados-estado-02",
+          "titulo": "Gaps de dados",
+          "pergunta": "Identificamos explicitamente as diferenças entre as arquiteturas de dados atual e desejada?",
+          "apoio": "Uma lacuna de dados pode exigir mudança de definição, fluxo, qualidade ou responsabilidade.",
+          "praticas": [
+            {
+              "id": "dados-estado-02-p01",
+              "texto": "Registrar um gap relacionado a dado ou fluxo crítico."
+            },
+            {
+              "id": "dados-estado-02-p02",
+              "texto": "Distinguir o gap de dados da solução tecnológica possível."
+            },
+            {
+              "id": "dados-estado-02-p03",
+              "texto": "Relacionar o gap a um requisito ou objetivo de negócio."
+            },
+            {
+              "id": "dados-estado-02-p04",
+              "texto": "Encaminhar o gap identificado para consolidação com os demais domínios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aplicacoes-estado",
+      "titulo": "Evolução da arquitetura de aplicações",
+      "icone": "↗",
+      "descricao": "Sabemos como o conjunto de aplicações deve evoluir?",
+      "introducao": "Vamos identificar transformações na arquitetura aplicacional necessárias para atender ao negócio.",
+      "introducaoReflexoes": "Vamos identificar transformações na arquitetura aplicacional necessárias para atender ao negócio.",
+      "reflexoes": [
+        {
+          "id": "aplicacoes-estado-01",
+          "titulo": "Aplicações atuais e desejadas",
+          "pergunta": "Conseguimos comparar as aplicações atuais com as capacidades e serviços de aplicação necessários no futuro?",
+          "apoio": "A arquitetura desejada pode combinar reutilização, integração, substituição e novas capacidades.",
+          "praticas": [
+            {
+              "id": "aplicacoes-estado-01-p01",
+              "texto": "Registrar a função de uma aplicação que deverá ser preservada."
+            },
+            {
+              "id": "aplicacoes-estado-01-p02",
+              "texto": "Identificar um serviço de aplicação que deverá existir no cenário desejado."
+            },
+            {
+              "id": "aplicacoes-estado-01-p03",
+              "texto": "Representar uma mudança importante na relação entre aplicações."
+            },
+            {
+              "id": "aplicacoes-estado-01-p04",
+              "texto": "Validar a proposta com áreas de negócio e equipes de aplicações."
+            }
+          ]
+        },
+        {
+          "id": "aplicacoes-estado-02",
+          "titulo": "Gaps de aplicações",
+          "pergunta": "Identificamos lacunas, mudanças e elementos a eliminar na arquitetura de aplicações?",
+          "apoio": "Os gaps devem explicar o que precisa mudar no domínio, não apenas listar projetos.",
+          "praticas": [
+            {
+              "id": "aplicacoes-estado-02-p01",
+              "texto": "Registrar uma funcionalidade ou integração ausente no cenário atual."
+            },
+            {
+              "id": "aplicacoes-estado-02-p02",
+              "texto": "Identificar um componente que precise ser alterado ou substituído."
+            },
+            {
+              "id": "aplicacoes-estado-02-p03",
+              "texto": "Relacionar um gap de aplicações ao serviço de negócio afetado."
+            },
+            {
+              "id": "aplicacoes-estado-02-p04",
+              "texto": "Compartilhar os gaps com as equipes dos demais domínios de arquitetura."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

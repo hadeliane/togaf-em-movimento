@@ -1,0 +1,301 @@
+{
+  "id": "fase-g",
+  "titulo": "Fase G: Governança da Implementação",
+  "ordem": 7,
+  "sigla": "G",
+  "arquivo": "fase-g.json",
+  "descricao": "Acompanhe a implementação e preserve as decisões de arquitetura.",
+  "introducao": "A arquitetura ganha vida quando as soluções são implementadas. Onde podemos fortalecer o acompanhamento para que as entregas permaneçam coerentes com a arquitetura aprovada?",
+  "assuntos": [
+    {
+      "id": "acordo-implementacao",
+      "titulo": "Acordos para implementar",
+      "icone": "◎",
+      "descricao": "Está claro o que precisa ser respeitado durante a implementação?",
+      "introducao": "Vamos observar como arquitetura e equipes de entrega alinham compromissos e responsabilidades.",
+      "introducaoReflexoes": "Vamos observar como arquitetura e equipes de entrega alinham compromissos e responsabilidades.",
+      "reflexoes": [
+        {
+          "id": "acordo-implementacao-01",
+          "titulo": "Compromissos de arquitetura",
+          "pergunta": "Temos acordos claros sobre requisitos, decisões e responsabilidades arquiteturais durante a implementação?",
+          "apoio": "O Contrato de Arquitetura é um instrumento possível para formalizar esses compromissos, adaptado ao contexto.",
+          "praticas": [
+            {
+              "id": "acordo-implementacao-01-p01",
+              "texto": "Explicitar uma restrição arquitetural que a implementação precisa observar."
+            },
+            {
+              "id": "acordo-implementacao-01-p02",
+              "texto": "Registrar quem avalia conformidade e quem decide sobre exceções."
+            },
+            {
+              "id": "acordo-implementacao-01-p03",
+              "texto": "Relacionar um compromisso de implementação a um requisito arquitetural."
+            },
+            {
+              "id": "acordo-implementacao-01-p04",
+              "texto": "Alinhar os compromissos com a equipe responsável pela entrega."
+            }
+          ]
+        },
+        {
+          "id": "acordo-implementacao-02",
+          "titulo": "Escopo da implementação",
+          "pergunta": "Confirmamos se a implementação mantém o escopo e as prioridades acordadas?",
+          "apoio": "Mudanças de entrega podem afetar as premissas em que a arquitetura foi definida.",
+          "praticas": [
+            {
+              "id": "acordo-implementacao-02-p01",
+              "texto": "Comparar o escopo de uma entrega com o trabalho arquitetural aprovado."
+            },
+            {
+              "id": "acordo-implementacao-02-p02",
+              "texto": "Identificar uma alteração de escopo com impacto arquitetural."
+            },
+            {
+              "id": "acordo-implementacao-02-p03",
+              "texto": "Registrar uma decisão necessária para manter a coerência da entrega."
+            },
+            {
+              "id": "acordo-implementacao-02-p04",
+              "texto": "Comunicar o impacto da mudança aos interessados relevantes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orientacao-equipes",
+      "titulo": "Orientação às equipes de entrega",
+      "icone": "⇄",
+      "descricao": "A arquitetura apoia as decisões de quem está implementando?",
+      "introducao": "Vamos observar como as equipes recebem e utilizam as orientações arquiteturais.",
+      "introducaoReflexoes": "Vamos observar como as equipes recebem e utilizam as orientações arquiteturais.",
+      "reflexoes": [
+        {
+          "id": "orientacao-equipes-01",
+          "titulo": "Comunicação das decisões",
+          "pergunta": "As equipes de implementação compreendem as decisões e restrições da arquitetura?",
+          "apoio": "Um documento aprovado só ajuda quando quem executa consegue interpretá-lo e consultá-lo.",
+          "praticas": [
+            {
+              "id": "orientacao-equipes-01-p01",
+              "texto": "Revisar uma decisão arquitetural com a equipe de implementação."
+            },
+            {
+              "id": "orientacao-equipes-01-p02",
+              "texto": "Disponibilizar uma visão simples que explique uma restrição importante."
+            },
+            {
+              "id": "orientacao-equipes-01-p03",
+              "texto": "Registrar a justificativa de uma decisão que gere dúvidas recorrentes."
+            },
+            {
+              "id": "orientacao-equipes-01-p04",
+              "texto": "Definir um canal para esclarecer dúvidas durante a implementação."
+            }
+          ]
+        },
+        {
+          "id": "orientacao-equipes-02",
+          "titulo": "Acompanhamento técnico",
+          "pergunta": "Oferecemos orientação arquitetural nos momentos em que as decisões de implementação são tomadas?",
+          "apoio": "O acompanhamento contínuo reduz o risco de descobrir desvios apenas no final.",
+          "praticas": [
+            {
+              "id": "orientacao-equipes-02-p01",
+              "texto": "Combinar um ponto de contato entre arquitetura e implementação."
+            },
+            {
+              "id": "orientacao-equipes-02-p02",
+              "texto": "Participar de uma revisão de solução antes de uma decisão relevante."
+            },
+            {
+              "id": "orientacao-equipes-02-p03",
+              "texto": "Registrar uma dúvida arquitetural surgida durante o desenvolvimento."
+            },
+            {
+              "id": "orientacao-equipes-02-p04",
+              "texto": "Encaminhar uma decisão não prevista para avaliação adequada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conformidade",
+      "titulo": "Avaliações de conformidade",
+      "icone": "▣",
+      "descricao": "Verificamos se a solução continua coerente com a arquitetura?",
+      "introducao": "Vamos avaliar a conformidade no momento em que ainda é possível corrigir o caminho.",
+      "introducaoReflexoes": "Vamos avaliar a conformidade no momento em que ainda é possível corrigir o caminho.",
+      "reflexoes": [
+        {
+          "id": "conformidade-01",
+          "titulo": "Critérios de conformidade",
+          "pergunta": "Sabemos quais requisitos e decisões devem orientar a avaliação da implementação?",
+          "apoio": "Critérios claros tornam a avaliação mais objetiva e menos dependente de interpretações individuais.",
+          "praticas": [
+            {
+              "id": "conformidade-01-p01",
+              "texto": "Selecionar requisitos arquiteturais verificáveis de uma entrega."
+            },
+            {
+              "id": "conformidade-01-p02",
+              "texto": "Relacionar cada critério a uma decisão ou restrição aprovada."
+            },
+            {
+              "id": "conformidade-01-p03",
+              "texto": "Registrar evidências esperadas para confirmar a conformidade."
+            },
+            {
+              "id": "conformidade-01-p04",
+              "texto": "Compartilhar os critérios com a equipe de implementação."
+            }
+          ]
+        },
+        {
+          "id": "conformidade-02",
+          "titulo": "Momentos de revisão",
+          "pergunta": "Realizamos avaliações de conformidade em momentos úteis do ciclo de implementação?",
+          "apoio": "A revisão deve acontecer quando ainda existe espaço para ajustar a solução.",
+          "praticas": [
+            {
+              "id": "conformidade-02-p01",
+              "texto": "Identificar um marco adequado para uma avaliação de conformidade."
+            },
+            {
+              "id": "conformidade-02-p02",
+              "texto": "Revisar uma decisão arquitetural aplicada à solução em construção."
+            },
+            {
+              "id": "conformidade-02-p03",
+              "texto": "Registrar o resultado da avaliação e seus encaminhamentos."
+            },
+            {
+              "id": "conformidade-02-p04",
+              "texto": "Acompanhar a resolução de uma não conformidade relevante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desvios",
+      "titulo": "Desvios e solicitações de mudança",
+      "icone": "◇",
+      "descricao": "Sabemos tratar diferenças entre o planejado e o implementado?",
+      "introducao": "Vamos tornar explícito como avaliar exceções e mudanças que surgem durante a implementação.",
+      "introducaoReflexoes": "Vamos tornar explícito como avaliar exceções e mudanças que surgem durante a implementação.",
+      "reflexoes": [
+        {
+          "id": "desvios-01",
+          "titulo": "Exceções e dispensas",
+          "pergunta": "Temos critérios e responsáveis para avaliar desvios em relação à arquitetura aprovada?",
+          "apoio": "Uma exceção pode ser justificável, mas precisa de análise, decisão e registro.",
+          "praticas": [
+            {
+              "id": "desvios-01-p01",
+              "texto": "Registrar a descrição e a justificativa de um desvio identificado."
+            },
+            {
+              "id": "desvios-01-p02",
+              "texto": "Avaliar o impacto do desvio nos requisitos e serviços afetados."
+            },
+            {
+              "id": "desvios-01-p03",
+              "texto": "Identificar quem tem autoridade para aprovar uma dispensa."
+            },
+            {
+              "id": "desvios-01-p04",
+              "texto": "Definir uma condição de acompanhamento para uma exceção aceita."
+            }
+          ]
+        },
+        {
+          "id": "desvios-02",
+          "titulo": "Mudanças surgidas na implementação",
+          "pergunta": "Conseguimos distinguir ajustes de implementação de mudanças que exigem revisão arquitetural?",
+          "apoio": "Uma solicitação pode demandar ajuste técnico pontual ou alteração da arquitetura aprovada.",
+          "praticas": [
+            {
+              "id": "desvios-02-p01",
+              "texto": "Registrar uma solicitação de mudança com sua motivação."
+            },
+            {
+              "id": "desvios-02-p02",
+              "texto": "Identificar quais decisões ou requisitos arquiteturais seriam afetados."
+            },
+            {
+              "id": "desvios-02-p03",
+              "texto": "Encaminhar alterações com impacto arquitetural ao mecanismo de governança."
+            },
+            {
+              "id": "desvios-02-p04",
+              "texto": "Comunicar a decisão tomada à equipe que fará a implementação."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encerramento",
+      "titulo": "Aprendizados da implementação",
+      "icone": "↗",
+      "descricao": "A experiência de implementação retroalimenta a arquitetura?",
+      "introducao": "Vamos verificar o que foi entregue, o que mudou e o que a equipe pode aprender.",
+      "introducaoReflexoes": "Vamos verificar o que foi entregue, o que mudou e o que a equipe pode aprender.",
+      "reflexoes": [
+        {
+          "id": "encerramento-01",
+          "titulo": "Revisão pós-implementação",
+          "pergunta": "Avaliamos o resultado da implementação antes de encerrar o acompanhamento arquitetural?",
+          "apoio": "A revisão permite registrar o que foi efetivamente realizado e as diferenças relevantes em relação ao previsto.",
+          "praticas": [
+            {
+              "id": "encerramento-01-p01",
+              "texto": "Comparar uma entrega implementada com a arquitetura aprovada."
+            },
+            {
+              "id": "encerramento-01-p02",
+              "texto": "Registrar uma diferença importante entre o previsto e o realizado."
+            },
+            {
+              "id": "encerramento-01-p03",
+              "texto": "Identificar uma decisão arquitetural que deva ser revisitada."
+            },
+            {
+              "id": "encerramento-01-p04",
+              "texto": "Compartilhar um aprendizado relevante com a equipe de arquitetura."
+            }
+          ]
+        },
+        {
+          "id": "encerramento-02",
+          "titulo": "Atualização do conhecimento",
+          "pergunta": "Atualizamos os registros de arquitetura para refletir o que foi efetivamente implementado?",
+          "apoio": "Modelos desatualizados deixam de apoiar decisões e mudanças futuras.",
+          "praticas": [
+            {
+              "id": "encerramento-02-p01",
+              "texto": "Atualizar a representação de um componente efetivamente implantado."
+            },
+            {
+              "id": "encerramento-02-p02",
+              "texto": "Registrar a decisão final de uma exceção arquitetural."
+            },
+            {
+              "id": "encerramento-02-p03",
+              "texto": "Relacionar a solução implementada aos requisitos atendidos."
+            },
+            {
+              "id": "encerramento-02-p04",
+              "texto": "Disponibilizar os artefatos atualizados no repositório de arquitetura."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

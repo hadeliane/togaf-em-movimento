@@ -1,0 +1,301 @@
+{
+  "id": "requisitos",
+  "titulo": "Gestão de Requisitos",
+  "ordem": 9,
+  "sigla": "R",
+  "arquivo": "requisitos.json",
+  "descricao": "Mantenha os requisitos vivos ao longo do ADM.",
+  "introducao": "Os requisitos de arquitetura atravessam todo o ADM. Observe como são identificados, analisados, atualizados e relacionados às decisões, sem perdê-los durante a transformação.",
+  "assuntos": [
+    {
+      "id": "identificacao",
+      "titulo": "Identificação dos requisitos",
+      "icone": "◎",
+      "descricao": "Conseguimos transformar necessidades em requisitos de arquitetura?",
+      "introducao": "Vamos observar a origem e a clareza dos requisitos utilizados no trabalho arquitetural.",
+      "introducaoReflexoes": "Vamos observar a origem e a clareza dos requisitos utilizados no trabalho arquitetural.",
+      "reflexoes": [
+        {
+          "id": "identificacao-01",
+          "titulo": "Origem e motivação",
+          "pergunta": "Sabemos de onde vêm os requisitos de arquitetura e que necessidades eles procuram atender?",
+          "apoio": "A rastreabilidade começa pelo vínculo com objetivos, preocupações e restrições reais.",
+          "praticas": [
+            {
+              "id": "identificacao-01-p01",
+              "texto": "Registrar a origem de um requisito arquitetural importante."
+            },
+            {
+              "id": "identificacao-01-p02",
+              "texto": "Relacionar um requisito a uma preocupação de stakeholder."
+            },
+            {
+              "id": "identificacao-01-p03",
+              "texto": "Distinguir um requisito de arquitetura de uma solução já escolhida."
+            },
+            {
+              "id": "identificacao-01-p04",
+              "texto": "Confirmar com o interessado o resultado que o requisito deve apoiar."
+            }
+          ]
+        },
+        {
+          "id": "identificacao-02",
+          "titulo": "Clareza dos requisitos",
+          "pergunta": "Os requisitos estão descritos de maneira compreensível e suficientemente verificável?",
+          "apoio": "Requisitos vagos dificultam a análise de alternativas e a verificação posterior.",
+          "praticas": [
+            {
+              "id": "identificacao-02-p01",
+              "texto": "Reescrever um requisito ambíguo em linguagem objetiva."
+            },
+            {
+              "id": "identificacao-02-p02",
+              "texto": "Registrar uma condição que permita verificar o atendimento de um requisito."
+            },
+            {
+              "id": "identificacao-02-p03",
+              "texto": "Separar duas necessidades diferentes expressas no mesmo requisito."
+            },
+            {
+              "id": "identificacao-02-p04",
+              "texto": "Revisar um requisito importante com quem o solicitou."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analise",
+      "titulo": "Análise e prioridades",
+      "icone": "◇",
+      "descricao": "Sabemos decidir quais requisitos merecem mais atenção?",
+      "introducao": "Vamos reconhecer conflitos, dependências e diferentes níveis de importância dos requisitos.",
+      "introducaoReflexoes": "Vamos reconhecer conflitos, dependências e diferentes níveis de importância dos requisitos.",
+      "reflexoes": [
+        {
+          "id": "analise-01",
+          "titulo": "Prioridade e criticidade",
+          "pergunta": "Utilizamos critérios claros para priorizar requisitos arquiteturais?",
+          "apoio": "A prioridade ajuda a orientar escolhas, especialmente quando nem tudo pode ser atendido da mesma forma.",
+          "praticas": [
+            {
+              "id": "analise-01-p01",
+              "texto": "Registrar a criticidade de um requisito para o negócio."
+            },
+            {
+              "id": "analise-01-p02",
+              "texto": "Relacionar a prioridade a risco, valor ou obrigação aplicável."
+            },
+            {
+              "id": "analise-01-p03",
+              "texto": "Validar prioridades com stakeholders relevantes."
+            },
+            {
+              "id": "analise-01-p04",
+              "texto": "Revisar a prioridade quando o contexto da iniciativa mudar."
+            }
+          ]
+        },
+        {
+          "id": "analise-02",
+          "titulo": "Conflitos e negociações",
+          "pergunta": "Identificamos e tratamos conflitos entre requisitos antes que se transformem em decisões isoladas?",
+          "apoio": "Restrições de custo, desempenho, segurança e facilidade de uso podem competir entre si.",
+          "praticas": [
+            {
+              "id": "analise-02-p01",
+              "texto": "Registrar dois requisitos que entrem em conflito."
+            },
+            {
+              "id": "analise-02-p02",
+              "texto": "Identificar os interessados afetados pela escolha."
+            },
+            {
+              "id": "analise-02-p03",
+              "texto": "Documentar as alternativas ou concessões avaliadas."
+            },
+            {
+              "id": "analise-02-p04",
+              "texto": "Registrar a decisão acordada e sua justificativa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rastreabilidade",
+      "titulo": "Rastreabilidade",
+      "icone": "✣",
+      "descricao": "Conseguimos seguir o caminho de um requisito até sua realização?",
+      "introducao": "Vamos conectar necessidades, modelos, decisões e implementação de maneira proporcional ao trabalho.",
+      "introducaoReflexoes": "Vamos conectar necessidades, modelos, decisões e implementação de maneira proporcional ao trabalho.",
+      "reflexoes": [
+        {
+          "id": "rastreabilidade-01",
+          "titulo": "Vínculo com a arquitetura",
+          "pergunta": "Conseguimos identificar quais elementos e decisões arquiteturais atendem a cada requisito relevante?",
+          "apoio": "A rastreabilidade dá contexto aos requisitos e ajuda a analisar os impactos de mudanças.",
+          "praticas": [
+            {
+              "id": "rastreabilidade-01-p01",
+              "texto": "Relacionar um requisito a um elemento de arquitetura."
+            },
+            {
+              "id": "rastreabilidade-01-p02",
+              "texto": "Identificar uma decisão arquitetural motivada por determinado requisito."
+            },
+            {
+              "id": "rastreabilidade-01-p03",
+              "texto": "Localizar um requisito importante sem correspondência em modelo ou decisão."
+            },
+            {
+              "id": "rastreabilidade-01-p04",
+              "texto": "Atualizar o vínculo quando a arquitetura for alterada."
+            }
+          ]
+        },
+        {
+          "id": "rastreabilidade-02",
+          "titulo": "Vínculo com implementação e verificação",
+          "pergunta": "Conseguimos verificar como os requisitos arquiteturais são considerados na implementação?",
+          "apoio": "Esse vínculo facilita governar a conformidade e confirmar o atendimento do que foi definido.",
+          "praticas": [
+            {
+              "id": "rastreabilidade-02-p01",
+              "texto": "Relacionar um requisito a um pacote de trabalho ou entrega relevante."
+            },
+            {
+              "id": "rastreabilidade-02-p02",
+              "texto": "Definir uma evidência de atendimento de um requisito arquitetural."
+            },
+            {
+              "id": "rastreabilidade-02-p03",
+              "texto": "Verificar o estado de um requisito durante uma revisão de conformidade."
+            },
+            {
+              "id": "rastreabilidade-02-p04",
+              "texto": "Registrar requisitos ainda não atendidos ou sujeitos a dispensa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mudancas-requisitos",
+      "titulo": "Mudanças nos requisitos",
+      "icone": "⇄",
+      "descricao": "Controlamos o que muda e o que essa mudança afeta?",
+      "introducao": "Vamos observar como novas necessidades e revisões chegam aos trabalhos de arquitetura em andamento.",
+      "introducaoReflexoes": "Vamos observar como novas necessidades e revisões chegam aos trabalhos de arquitetura em andamento.",
+      "reflexoes": [
+        {
+          "id": "mudancas-requisitos-01",
+          "titulo": "Solicitações de alteração",
+          "pergunta": "Temos uma forma clara de registrar e analisar alterações de requisitos arquiteturais?",
+          "apoio": "Requisitos podem surgir ou mudar em qualquer fase do ADM, inclusive na implementação.",
+          "praticas": [
+            {
+              "id": "mudancas-requisitos-01-p01",
+              "texto": "Registrar a solicitação de alteração de um requisito."
+            },
+            {
+              "id": "mudancas-requisitos-01-p02",
+              "texto": "Identificar os motivos e os interessados na mudança."
+            },
+            {
+              "id": "mudancas-requisitos-01-p03",
+              "texto": "Comparar a nova necessidade com o requisito vigente."
+            },
+            {
+              "id": "mudancas-requisitos-01-p04",
+              "texto": "Encaminhar a alteração para decisão pelos responsáveis adequados."
+            }
+          ]
+        },
+        {
+          "id": "mudancas-requisitos-02",
+          "titulo": "Impactos e comunicação",
+          "pergunta": "Avaliamos como uma alteração de requisito afeta modelos, decisões e entregas relacionadas?",
+          "apoio": "Sem análise de impacto, uma pequena mudança de requisito pode produzir inconsistências na arquitetura.",
+          "praticas": [
+            {
+              "id": "mudancas-requisitos-02-p01",
+              "texto": "Identificar modelos de arquitetura afetados por um requisito alterado."
+            },
+            {
+              "id": "mudancas-requisitos-02-p02",
+              "texto": "Verificar se a alteração muda uma decisão ou restrição aprovada."
+            },
+            {
+              "id": "mudancas-requisitos-02-p03",
+              "texto": "Comunicar a alteração às equipes que utilizam o requisito."
+            },
+            {
+              "id": "mudancas-requisitos-02-p04",
+              "texto": "Atualizar os vínculos de rastreabilidade após a decisão."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "registro-requisitos",
+      "titulo": "Organização e acompanhamento",
+      "icone": "▣",
+      "descricao": "Mantemos uma referência confiável para os requisitos?",
+      "introducao": "Vamos olhar a consistência, a situação e a disponibilidade dos requisitos ao longo do ciclo.",
+      "introducaoReflexoes": "Vamos olhar a consistência, a situação e a disponibilidade dos requisitos ao longo do ciclo.",
+      "reflexoes": [
+        {
+          "id": "registro-requisitos-01",
+          "titulo": "Registro centralizado",
+          "pergunta": "Conseguimos localizar a versão vigente de cada requisito arquitetural importante?",
+          "apoio": "Um registro confiável evita que decisões sejam tomadas com informações divergentes.",
+          "praticas": [
+            {
+              "id": "registro-requisitos-01-p01",
+              "texto": "Registrar um identificador estável para um requisito relevante."
+            },
+            {
+              "id": "registro-requisitos-01-p02",
+              "texto": "Documentar a versão ou estado de aprovação do requisito."
+            },
+            {
+              "id": "registro-requisitos-01-p03",
+              "texto": "Indicar onde o requisito vigente pode ser consultado."
+            },
+            {
+              "id": "registro-requisitos-01-p04",
+              "texto": "Evitar múltiplas cópias não controladas do mesmo requisito."
+            }
+          ]
+        },
+        {
+          "id": "registro-requisitos-02",
+          "titulo": "Acompanhamento do ciclo de vida",
+          "pergunta": "Sabemos quais requisitos estão propostos, aprovados, alterados ou atendidos?",
+          "apoio": "O estado do requisito ajuda a organizar decisões e verificar o que ainda requer atenção.",
+          "praticas": [
+            {
+              "id": "registro-requisitos-02-p01",
+              "texto": "Definir estados simples de acompanhamento para os requisitos."
+            },
+            {
+              "id": "registro-requisitos-02-p02",
+              "texto": "Atualizar o estado de um requisito após uma decisão."
+            },
+            {
+              "id": "registro-requisitos-02-p03",
+              "texto": "Identificar requisitos pendentes de esclarecimento ou validação."
+            },
+            {
+              "id": "registro-requisitos-02-p04",
+              "texto": "Revisar os requisitos em aberto nos marcos relevantes do trabalho de arquitetura."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
